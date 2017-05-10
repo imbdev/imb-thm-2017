@@ -23,6 +23,31 @@ html {
 body {
 
 	font-family: 'Quicksand', sans-serif;
+	p {
+		font-size: 2rem;
+		line-height: 2.5rem;
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+
+		@media ( min-height: 800px ) {
+			font-size: 1.6rem;
+			line-height: 2rem;
+			padding-top: 1rem;
+			padding-bottom: 1rem;			
+		}
+	}
+
+	h1,h2,h3,h4,h5 {
+		color: $imb-secondary;
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+
+		@media ( min-height: 800px ) {
+			// padding-top: 1rem;
+			// padding-bottom: 1rem;
+		}
+
+	}
 
 	@media ( max-width: 1130px ) {
 		// padding-top: 50px;
@@ -217,10 +242,6 @@ img {
 	  background-size: cover;
 
 	display: none;
-	// border: 1rem solid green;
-
-
-
 }
 
 /**
@@ -269,7 +290,7 @@ img {
  *
  */
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-    background-color: $imb-teal;
+    // background-color: $imb-teal;
 }
 
 .navbar-container {
@@ -393,6 +414,11 @@ img {
 /*==========================================
 =            General Page Stuff            =
 ==========================================*/
+/**
+ *
+ * Convertkit Naked Form
+ *
+ */
 
 .page .ck_form.ck_naked {
     margin: 0px auto !important;
@@ -460,7 +486,31 @@ img {
  */
 @import "PARTIALS/imb-home-social-proof";
 
+
+/**
+ *
+ * HOME PAGE SOCIAL PROOF
+ *
+ */
+@import "PARTIALS/imb-home-hero-story";
+
+
+/**
+ *
+ * HOME PAGE SOCIAL PROOF
+ *
+ */
+@import "PARTIALS/imb-home-testimonial";
+
+
+
+
+
+
 /*=====  End of Home page style END  ======*/
+
+
+
 
 /*====================================
 =            Work With Me            =

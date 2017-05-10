@@ -1,0 +1,53 @@
+#imb-home-testimonial {
+	background-color: $imb-secondary;
+	min-height: 500px;
+
+	position: relative;
+
+	.content-box {
+
+		margin-top: 2%;
+
+		.bg-smudge-image {
+			position: absolute;
+
+			right: 40%;
+			bottom: 2%;
+			// top: 0%;
+		}
+
+		.testimonial-block {
+			
+			.testimonial {
+				background: white;
+				padding-top: 3rem;
+				padding-bottom: 3rem;
+				padding-left: 0rem;
+				padding-right: 0rem;
+				margin-bottom: 3rem;
+				margin-top: 2rem;
+
+				p {
+					padding-right: 2rem;
+				}
+
+
+				.author-image {
+					border-radius: 50%;
+					margin: 0 auto;
+				}
+
+				i.fa {
+					font-size: 2.5rem;
+					color: $imb-primary;
+				}
+
+				.author-info {
+					margin-top: 3rem;
+				}
+			}
+		}
+
+	}
+
+}

@@ -5922,6 +5922,21 @@ button.close {
     display: none !important; } }
 body {
   font-family: 'Quicksand', sans-serif; }
+  body p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; }
+    @media (min-height: 800px) {
+      body p {
+        font-size: 1.6rem;
+        line-height: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem; } }
+  body h1, body h2, body h3, body h4, body h5 {
+    color: #434876;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; }
 
 img {
   max-width: 100%;
@@ -5979,9 +5994,6 @@ img {
  * Bootstrap Navigation
  *
  */
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background-color: #5FC5BF; }
-
 .navbar {
   border: 1px solid white;
   margin-bottom: 0px;
@@ -6034,6 +6046,11 @@ img {
 /*==========================================
 =            General Page Stuff            =
 ==========================================*/
+/**
+ *
+ * Convertkit Naked Form
+ *
+ */
 .page .ck_form.ck_naked {
   margin: 0px auto !important;
   margin-top: -2rem !important;
@@ -6078,7 +6095,8 @@ img {
       font-size: 3.2rem;
       font-weight: 300;
       color: white;
-      padding-left: 1rem; }
+      padding-left: 1rem;
+      padding-right: 2rem; }
       @media (min-width: 350px) {
         #frontpage-top-hero-unit #frontpage-hero-image .hero-text-block-mobile .text-only {
           padding-left: 10%;
@@ -6233,6 +6251,60 @@ img {
   #imb-home-social-proof .content-box .flex-item {
     padding: 2rem;
     margin: auto; }
+
+/**
+ *
+ * HOME PAGE SOCIAL PROOF
+ *
+ */
+#imb-home-hero-story {
+  padding-bottom: 15rem; }
+  #imb-home-hero-story .content-box .headline {
+    color: #434876;
+    padding-bottom: 2rem; }
+  #imb-home-hero-story .content-box .content img {
+    margin-bottom: 4rem;
+    margin-top: 2rem; }
+    @media (max-width: 630px) {
+      #imb-home-hero-story .content-box .content img {
+        width: 100%; } }
+    @media (min-width: 631px) {
+      #imb-home-hero-story .content-box .content img {
+        padding-left: 2rem; } }
+
+/**
+ *
+ * HOME PAGE SOCIAL PROOF
+ *
+ */
+#imb-home-testimonial {
+  background-color: #434876;
+  min-height: 500px;
+  position: relative; }
+  #imb-home-testimonial .content-box {
+    margin-top: 2%; }
+    #imb-home-testimonial .content-box .bg-smudge-image {
+      position: absolute;
+      right: 40%;
+      bottom: 2%; }
+    #imb-home-testimonial .content-box .testimonial-block .testimonial {
+      background: white;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-left: 0rem;
+      padding-right: 0rem;
+      margin-bottom: 3rem;
+      margin-top: 2rem; }
+      #imb-home-testimonial .content-box .testimonial-block .testimonial p {
+        padding-right: 2rem; }
+      #imb-home-testimonial .content-box .testimonial-block .testimonial .author-image {
+        border-radius: 50%;
+        margin: 0 auto; }
+      #imb-home-testimonial .content-box .testimonial-block .testimonial i.fa {
+        font-size: 2.5rem;
+        color: #A574AE; }
+      #imb-home-testimonial .content-box .testimonial-block .testimonial .author-info {
+        margin-top: 3rem; }
 
 /*=====  End of Home page style END  ======*/
 /*====================================
