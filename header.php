@@ -152,39 +152,48 @@
 		<section id="frontpage-top-hero-unit">
 			
 			<header id="frontpage-hero-image">
+
+				<?php if ( is_front_page() || is_archive() || is_search() || is_404() ) : ?>
 				
-				<!-- JUST THE BACKGROUND IMAGE HOLDER -->
-				<article class="hero-text-block-mobile visible-xs visible-sm">
+					<!-- JUST THE BACKGROUND IMAGE HOLDER -->
+					<article class="hero-text-block-mobile visible-xs visible-sm">
 
-					<div class="text-only">
-						Do you Want To Know How You Can Balance Your
-						Life, Family and Finances (plus have FUN)
-						while growing an AWESOME Business?
-					</div>
+						<div class="text-only">
+							Do you Want To Know How You Can Balance Your
+							Life, Family and Finances (plus have FUN)
+							while growing an AWESOME Business?
+						</div>
 
-					<a class="btn  btn-lg" href="#" title="">
-						START HERE <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-					</a>
+						<a class="btn  btn-lg" href="#" title="">
+							START HERE <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+						</a>
 
-				</article>
+					</article>
+
+				<?php endif; ?>	
+
 
 			</header>
-			<div id="hero-call-to-action-box" class="container hidden-xs hidden-sm">
 
-				<article class="hero-text-block">
+			<?php if ( is_front_page() || is_archive() || is_search() || is_404() ) : ?>
 
-					<span class="text-only">Do you Want To Know How You Can Balance Your</span> <br>
-					<span class="text-only">Life, Family and Finances (plus have FUN)</span> <br>
-					<span class="text-only">while growing an AWESOME Business?</span>
+				<div id="hero-call-to-action-box" class="container hidden-xs hidden-sm">
 
-					<a class="btn  btn-lg" href="#" title="">
-						START HERE <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-					</a>
+					<article class="hero-text-block">
 
-				</article>
+						<span class="text-only">Do you Want To Know How You Can Balance Your</span> <br>
+						<span class="text-only">Life, Family and Finances (plus have FUN)</span> <br>
+						<span class="text-only">while growing an AWESOME Business?</span>
 
-			</div>
+						<a class="btn  btn-lg" href="#" title="">
+							START HERE <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+						</a>
 
+					</article>
+
+				</div>
+
+			<?php endif; ?>	
 
 		</section>
 			

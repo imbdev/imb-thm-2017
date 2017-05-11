@@ -5920,6 +5920,9 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+html {
+  display: none; }
+
 body {
   font-family: 'Quicksand', sans-serif; }
   body p {
@@ -6842,89 +6845,6 @@ img {
 /*=========================================
 =            IMB FOOTER STYLES            =
 =========================================*/
-/**
- *
- * Footer Styles
- *
- */
-.footer-container {
-  background-image: url(/wp-content/uploads/2017/05/imb-footer-smudge.jpg);
-  background-position: bottom center;
-  background-size: cover; }
-
-#footer-main {
-  text-align: center;
-  /**
-   *
-   * Footer Widgets
-   *
-   */
-  /**
-   *
-   * Footer Menu
-   *
-   */ }
-  #footer-main #copyright {
-    padding-top: 2rem;
-    padding-bottom: 3rem; }
-    #footer-main #copyright h4 {
-      font-size: 1.4rem;
-      font-weight: 700;
-      line-height: 1.4rem; }
-  #footer-main .footer-body {
-    padding-top: 3rem; }
-  #footer-main .widget-footer {
-    padding-left: 0;
-    color: #cdcdcd; }
-    #footer-main .widget-footer .widget-title {
-      color: #eeeeee;
-      padding-bottom: 2rem;
-      padding-top: 5rem; }
-    #footer-main .widget-footer ul {
-      padding-left: 0; }
-    #footer-main .widget-footer li {
-      margin-bottom: .2rem;
-      padding: 1rem;
-      list-style: none;
-      -webkit-transition: all 0.5s ease-in-out;
-      -moz-transition: all 0.5s ease-in-out;
-      transition: all 0.5s ease-in-out; }
-      #footer-main .widget-footer li:hover {
-        background-color: #666666; }
-    #footer-main .widget-footer a {
-      color: #cdcdcd;
-      font-size: 2rem; }
-      #footer-main .widget-footer a:hover {
-        color: white; }
-  #footer-main #menu-menu-2 {
-    margin-top: 5rem;
-    text-align: center; }
-    #footer-main #menu-menu-2 li {
-      display: inline-block;
-      background-color: transparent; }
-      #footer-main #menu-menu-2 li a {
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 2rem;
-        font-weight: 300;
-        color: #A574AE; }
-        #footer-main #menu-menu-2 li a:hover {
-          color: #5FC5BF; }
-  #footer-main .footer-social {
-    padding-top: 2rem; }
-    #footer-main .footer-social li {
-      height: 50px;
-      width: 50px;
-      border-radius: 50%;
-      background-color: transparent;
-      border: 2px solid #5FC5BF; }
-      #footer-main .footer-social li:hover {
-        background-color: #5FC5BF; }
-        #footer-main .footer-social li:hover i {
-          color: white; }
-      #footer-main .footer-social li i {
-        font-size: 2.3rem;
-        color: #717171; }
-
 /*=====  End of IMB FOOTER STYLES  ======*/
 /*--------------------------------------------------------------
 10.3 Comments
@@ -7042,4 +6962,4 @@ ol.children {
   background: #84bd68;
   background: #83bc67; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=sytle.css.map */
