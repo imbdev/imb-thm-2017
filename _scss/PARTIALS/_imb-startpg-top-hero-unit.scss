@@ -1,0 +1,58 @@
+/**
+ *
+ * HOME PAGE TOP HERO UNIT
+ *
+ */
+
+#imb-startpg-top-hero-unit {
+
+	min-height: 380px;
+	background-color: $imb-light-ash;
+	background-image: url(/wp-content/uploads/2017/05/top-hero-bg-400x400-lightest.jpg);
+
+	.content-box {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+
+		@media ( min-width: 1300px )  {
+			padding-bottom: 5rem;
+		}
+
+		.right-img-box {
+
+			.hero-image {
+				padding-top: 2rem;
+			}
+		}
+
+		.left-text-box {
+
+			.headline {
+
+				@media ( min-width: 992px ) and ( max-width: 1200px ) {
+
+					font-size: 2.5rem;
+					padding: 0 !important;
+				}
+
+				@media ( min-width: 1300px ) {
+					font-weight: 300;
+				}
+			}
+			.sub-heading {
+
+				@media ( min-width: 992px ) and ( max-width: 1200px )  {
+
+					font-size: 1.5rem;
+					padding: 0 !important;
+				}
+			}
+			p {
+				font-size: 1.5rem;
+				padding: 0 !important;
+			}
+
+		}
+	}
+
+} 

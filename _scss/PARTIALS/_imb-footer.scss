@@ -13,9 +13,9 @@
 
 #footer-main {
 
-	text-align: center;
 	
 	#copyright {
+		text-align: center;
 
 		padding-top: 2rem;
 		padding-bottom: 3rem;
@@ -24,7 +24,6 @@
 			font-size: 1.4rem;
 			font-weight: 700;
 			line-height: 1.4rem;
-
 		}
 		
 	}
@@ -47,88 +46,86 @@
 		color: lighten(grey, 30%);
 
 		.widget-title {
-			color: $gray-lighter;
+			color: $imb-secondary;
 			padding-bottom: 2rem;
 			padding-top: 5rem;
+			text-transform: uppercase;
+			font-family: 'Archivo Black', sans-serif;
+			font-size: 1.5rem;
+			font-weight: 900;
+
+			@media ( min-width: 769px ) and ( max-width: 991px ) {
+				font-size: 1rem;
+			}
+
 		}
+
 		ul {
 			padding-left: 0;
 		}
 
 		li {
-			// display: inline-block;
 			margin-bottom: .2rem;
 			padding: 1rem;
 			list-style: none;
 			@include transition(all 0.5s ease-in-out);
 
-			&:hover {
-				background-color: $steel;
-
-			}
-		}
-
-		a {
-			color: lighten(grey, 30%);
-			font-size: 2rem;
-
-			
-			&:hover {
-				color: white;
-			}
-		}
-	}
-
-	/**
-	 *
-	 * Footer Menu
-	 *
-	 */
-	
-
-	#menu-menu-2 {
-		margin-top: 5rem;
-		text-align: center;
-		li {
-			display: inline-block;
-			background-color: transparent;
-
 			a {
-				// font-family: 'Slabo 27px', serif;
-				font-family: 'Cormorant Garamond', serif;
-				font-size: 2rem;
-				font-weight: 300;	
-				color: $imb-primary;
+				color: lighten(grey, 10%);
+				font-size: 1.8rem;
 
-				&:hover {
-					color: $imb-teal;
+				@media ( min-width: 769px ) and ( max-width: 991px ) {
+					font-size: .9rem;
+				}
+				@media ( min-width: 992px ) and ( max-width: 1300px ) {
+					font-size: 1.3rem;
+				}
+			}
+
+			&:hover {
+				background-color: $imb-primary;
+				color: white;
+			
+
+				a {
+					color: white;
+					text-decoration: none;
+
+					i.fa {
+						color: white !important;
+					}
 				}
 			}
 		}
+
+		
 	}
 
-	.footer-social {
 
-		padding-top: 2rem;
+	#join-news-letter {
+		margin-top: 5.5rem;
+
+		.headline {
+			font-family: 'Archivo Black', sans-serif;
+			font-size: 2.2rem;
+		}
+
+		.btn {
+			margin-top: 2rem;
+			color: white;
+		}
+	}
+
+	#footer-social {
 
 		li {
-			height: 50px;
-			width: 50px;
-			border-radius: 50%;
-			background-color: transparent;
-			border: 2px solid $imb-teal;
-
-			&:hover {
-				background-color: $imb-teal;
+			
+			a {
 				i {
-					color: white;
+					font-size: 2.5rem;
+					color: lighten( $imb-primary, 0% );
+					margin-right: 1rem;
 				}
-
-			}
-
-			i {
-				font-size: 2.3rem;
-				color: lighten( $imb-gray, 30% );
 			}
 		}
 	}

@@ -1,5 +1,7 @@
 $imb-primary: #A574AE; //purple
 $imb-secondary: #434876; //darkblue
+$imb-light-ash: #EBEFF2;
+
 $imb-teal: #5FC5BF;
 $imb-gray: #242424;
 $imb-light-gray: #f9fbfc;
@@ -10,6 +12,7 @@ $imb-red: #bb324a;
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css);
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 
 html { 
  
@@ -29,15 +32,15 @@ body {
 		@media ( min-height: 800px ) {
 			font-size: 1.6rem;
 			line-height: 2rem;
-			padding-top: 1rem;
-			padding-bottom: 1rem;			
+			padding-top: .6rem;
+			padding-bottom: .6rem;			
 		}
 	}
 
 	h1,h2,h3,h4,h5 {
 		color: $imb-secondary;
-		padding-top: 1.5rem;
-		padding-bottom: 1.5rem;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 
 		@media ( min-height: 800px ) {
 			// padding-top: 1rem;
@@ -367,11 +370,23 @@ img {
 @import "PARTIALS/imb-home-testimonial";
 
 
-
-
-
-
 /*=====  End of Home page style END  ======*/
+
+
+
+/*=======================================
+=            Start page style            =
+=======================================*/
+
+/**
+ *
+ * HOMR PAGE HERO UNIT (HEADER-STARTPG.PHP)
+ *
+ */
+@import "PARTIALS/imb-startpg-top-hero-unit";
+
+
+/*=====  End of Start page style END  ======*/
 
 
 

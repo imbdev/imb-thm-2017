@@ -99,15 +99,17 @@ add_action( 'after_setup_theme', 'moose_frame_content_width', 0 );
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
 function moose_frame_widgets_init() {
+
 	// register_sidebar( array(
-	// 	'name'          => esc_html__( 'Sidebar', 'moose-frame' ),
-	// 	'id'            => 'sidebar-1',
+	// 	'name'          => esc_html__( 'Footer Sidebar 3', 'moose-frame' ),
+	// 	'id'            => 'footer-sidebar-3',
 	// 	'description'   => '',
 	// 	'before_widget' => '<section id="%1$s" class="widget %2$s">',
 	// 	'after_widget'  => '</section>',
 	// 	'before_title'  => '<h2 class="widget-title">',
 	// 	'after_title'   => '</h2>',
 	// ) );
+
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'moose-frame' ),
 		'id'            => 'sidebar-1',

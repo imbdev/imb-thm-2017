@@ -98,6 +98,17 @@
 					</article>
 
 
+					<!-- <div id="copyright" class="copyright ">
+						<img src="/wp-content/uploads/2017/04/logo-400x57.png" alt="">
+						<h4>COPYRIGHT INSPIREDMOMMYBOSS.COM</h4>
+						<h4>
+							<a href="http://tianagustafson.com/privacy-policy/">PRIVACY POLICY</a> | 
+							<a href="http://tianagustafson.com/terms-of-service/">TERMS</a> | 
+							<a href="http://tianagustafson.com/earnings-disclaimer/">DISCLAIMER</a> | 
+							<a href="/contact/">CONTACT</a>
+						</h4>
+					</div> -->
+
 				</div> <!-- ROW ENDS -->
 
 			</footer>
