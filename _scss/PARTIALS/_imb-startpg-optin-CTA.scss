@@ -1,0 +1,25 @@
+#imb-startpg-optin-CTA {
+	background-color: $imb-secondary;
+	min-height: 300px;
+
+	.content-box {
+		padding-top: 3rem;
+
+		.text-content {
+			text-align: center;
+
+			.headline {
+				color: white;
+				font-weight: 300;	
+			}
+			.btn {
+				padding: 2rem 5rem;
+				border-radius: 50px;
+				@media ( max-width: 1400px ) {
+					margin-bottom: 5rem;
+				}
+			}
+		}
+	}
+	
+}

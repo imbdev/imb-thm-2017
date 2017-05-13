@@ -20,9 +20,10 @@ get_header('startpg'); ?>
 
 	<div class="content-box container">
 
-		<div class="col-sm-12 col-md-6 col-lg-6">
-			
+		<div class="col-md-6 col-lg-6">
+
 			<article class="left-text-box">
+
 				<h4 class="sub-heading">WELCOME TO INSPIRED MOMMY BOSS</h4>
 				
 				<h1 class="headline">
@@ -39,11 +40,16 @@ get_header('startpg'); ?>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus laudantium, 
 					voluptates officia culpa quod ducimus iste atque.
-				</p>				
+				</p>
+
+				<img class="hero-image-mobile-bg img-responsive hidden-md hidden-lg" src="/wp-content/uploads/2017/05/imb-startpg-top-hero-mobile-bg-992w.jpg" alt="">
+
 			</article>
 
+
+
 		</div>
-		<div class="col-sm-12 col-md-6 col-lg-6">
+		<div class="col-md-6 col-lg-6 hidden-sm hidden-xs">
 
 			<figure class="right-img-box">
 				
@@ -55,26 +61,64 @@ get_header('startpg'); ?>
 
 	</div>
 
-</section>
+</section> <!-- End imb-startpg-top-hero-unit -->
 
-<section id="imb-home-testimonial" class="container-fluid">
-	
-	<div class="content-box">
+<section id="imb-startpg-top-roadmap" class="">
+
+	<section id="imb-startpg-top-roadmap-unit" class="container-fluid">
 		
-		<!-- <img class="bg-smudge-image" src="/wp-content/uploads/2017/05/the-moose-smudge-200KB-700x700.png" alt=""> -->
-		
-		<div class="testimonial-block container">
+		<div class="content-box container">
 			
-			
+			<div class="row">
+				<article class="text-content col-sm-7 col-md-7 col-lg-7">
+
+					<h3 class="sub-headline">
+						I want to ...
+					</h3>
+					
+					<h1 class="headline">
+						JUMP START MY FACEBOOK FOLLOWING IN 5 DAYS
+					</h1>
+
+					<a href="#" class="btn btn-primary btn-lg">START HERE &nbsp;></a>
+
+				</article>
+				<article class="col-sm-5 col-md-5 col-lg-5">
+					
+					<img src="http://lorempixel.com/700/450/abstract/6" alt="">
+
+				</article>			
+			</div>
 
 		</div>
 
+	</section> 
+</section>
+
+<section id="imb-startpg-optin-CTA" class="container-fluid">
+	
+	<div class="content-box">
+		
+		<article class="col-sm-3 col-md-3 col-lg-3"></article>
+		<article class="text-content col-sm-6 col-md-6 col-lg-6">
+			
+			<h1 class="headline">
+				Do you Want To Know How You Can Balance Your
+				Life, Family and Finances (plus have FUN)
+				while growing an AWESOME Business?
+			</h1>
+
+			<a href="#" class="btn btn-primary btn-lg">START HERE &nbsp;></a>
+
+		</article>
+		<article class="col-sm-3 col-md-3 col-lg-3"></article>
+
 	</div>
 
-</section> <!-- End imb-home-testimonial -->
+</section> <!-- End imb-startpg-optin-CTA -->
 
 
-<section id="imb-home-top-roadmap" class="container-fluid">
+<section id="imb-startpg-roadmap" class="container-fluid">
 
 	<div class="content-box container">
 		
@@ -153,11 +197,10 @@ get_header('startpg'); ?>
 	</div>
 
 	
-</section> <!-- End imb-home-top-roadmap -->	
+</section> <!-- End imb-startpg-top-roadmap -->	
 
 
-
-<section id="imb-home-testimonial" class="container-fluid">
+<section id="imb-startpg-testimonial" class="container-fluid">
 	
 	<div class="content-box">
 		
@@ -210,12 +253,6 @@ get_header('startpg'); ?>
 	</div>
 
 </section> <!-- End imb-home-testimonial -->
-
-
-
-
-
-
 
 
 

@@ -6250,7 +6250,7 @@ img {
 
 /**
  *
- * HOME PAGE SOCIAL PROOF
+ * HOME PAGE HERO STORY
  *
  */
 #imb-home-hero-story {
@@ -6270,7 +6270,7 @@ img {
 
 /**
  *
- * HOME PAGE SOCIAL PROOF
+ * HOME PAGE TESTIMONIAL
  *
  */
 #imb-home-testimonial {
@@ -6308,7 +6308,7 @@ img {
 =======================================*/
 /**
  *
- * HOMR PAGE HERO UNIT (HEADER-STARTPG.PHP)
+ * HOMR PAGE HERO UNIT 
  *
  */
 /**
@@ -6319,7 +6319,11 @@ img {
 #imb-startpg-top-hero-unit {
   min-height: 380px;
   background-color: #EBEFF2;
-  background-image: url(/wp-content/uploads/2017/05/top-hero-bg-400x400-lightest.jpg); }
+  position: relative;
+  z-index: -1; }
+  @media (min-width: 991px) {
+    #imb-startpg-top-hero-unit {
+      background-image: url(/wp-content/uploads/2017/05/top-hero-bg-400x400-lightest.jpg); } }
   #imb-startpg-top-hero-unit .content-box {
     padding-top: 3rem;
     padding-bottom: 3rem; }
@@ -6327,14 +6331,21 @@ img {
       #imb-startpg-top-hero-unit .content-box {
         padding-bottom: 5rem; } }
     #imb-startpg-top-hero-unit .content-box .right-img-box .hero-image {
-      padding-top: 2rem; }
-    @media (min-width: 992px) and (max-width: 1200px) {
-      #imb-startpg-top-hero-unit .content-box .left-text-box .headline {
-        font-size: 2.5rem;
-        padding: 0 !important; } }
-    @media (min-width: 1300px) {
-      #imb-startpg-top-hero-unit .content-box .left-text-box .headline {
-        font-weight: 300; } }
+      margin-top: 1rem;
+      box-shadow: 1px 1px 8px #9d9d9d; }
+    #imb-startpg-top-hero-unit .content-box .left-text-box .hero-image-mobile-bg {
+      position: absolute;
+      z-index: -1;
+      top: 0; }
+    #imb-startpg-top-hero-unit .content-box .left-text-box .headline {
+      z-index: 100; }
+      @media (min-width: 992px) and (max-width: 1200px) {
+        #imb-startpg-top-hero-unit .content-box .left-text-box .headline {
+          font-size: 2.5rem;
+          padding: 0 !important; } }
+      @media (min-width: 1300px) {
+        #imb-startpg-top-hero-unit .content-box .left-text-box .headline {
+          font-weight: 300; } }
     @media (min-width: 992px) and (max-width: 1200px) {
       #imb-startpg-top-hero-unit .content-box .left-text-box .sub-heading {
         font-size: 1.5rem;
@@ -6342,6 +6353,126 @@ img {
     #imb-startpg-top-hero-unit .content-box .left-text-box p {
       font-size: 1.5rem;
       padding: 0 !important; }
+
+/**
+ *
+ * HOMR PAGE TOP ROADMAP UNIT 
+ *
+ */
+/**
+ *
+ * START PAGE TOP ROADMAP 
+ *
+ */
+#imb-startpg-top-roadmap-unit {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+  #imb-startpg-top-roadmap-unit .content-box .headline {
+    margin-bottom: 5rem; }
+  #imb-startpg-top-roadmap-unit .content-box .text-content-purple {
+    background-color: #e4d5e6; }
+
+/**
+ *
+ * HOME PAGE TESTIMONIAL
+ *
+ */
+#imb-startpg-optin-CTA {
+  background-color: #434876;
+  min-height: 300px; }
+  #imb-startpg-optin-CTA .content-box {
+    padding-top: 3rem; }
+    #imb-startpg-optin-CTA .content-box .text-content {
+      text-align: center; }
+      #imb-startpg-optin-CTA .content-box .text-content .headline {
+        color: white;
+        font-weight: 300; }
+      #imb-startpg-optin-CTA .content-box .text-content .btn {
+        padding: 2rem 5rem;
+        border-radius: 50px; }
+        @media (max-width: 1400px) {
+          #imb-startpg-optin-CTA .content-box .text-content .btn {
+            margin-bottom: 5rem; } }
+
+/**
+ *
+ * HOME PAGE TOP ROADMAP
+ *
+ */
+#imb-startpg-roadmap .content-box {
+  margin-bottom: 5rem; }
+  #imb-startpg-roadmap .content-box .headline {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    color: #434876; }
+  @media (min-width: 799px) {
+    #imb-startpg-roadmap .content-box .image-group .image-box .image-holder {
+      min-height: 180px; } }
+  @media (min-width: 999px) {
+    #imb-startpg-roadmap .content-box .image-group .image-box .image-holder {
+      min-height: 230px; } }
+  @media (min-width: 1199px) {
+    #imb-startpg-roadmap .content-box .image-group .image-box .image-holder {
+      min-height: 300px; } }
+  #imb-startpg-roadmap .content-box .image-group .image-box .image-holder .roadmap-image {
+    width: 100%;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out; }
+    #imb-startpg-roadmap .content-box .image-group .image-box .image-holder .roadmap-image:hover {
+      border: 1rem solid #A574AE;
+      border-radius: 50%; }
+  @media (min-width: 799px) {
+    #imb-startpg-roadmap .content-box .image-group .image-box .roadmap-image-text {
+      min-height: 200px; } }
+  @media (min-width: 1199px) {
+    #imb-startpg-roadmap .content-box .image-group .image-box .roadmap-image-text {
+      min-height: 150px; } }
+  #imb-startpg-roadmap .content-box .image-group .image-box .roadmap-image-text .text-only {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  #imb-startpg-roadmap .content-box .image-group .image-box .roadmap-button {
+    text-align: center;
+    margin-bottom: 3rem; }
+
+/**
+ *
+ * HOME PAGE TESTIMONIAL
+ *
+ */
+#imb-startpg-testimonial {
+  background-color: #434876;
+  min-height: 500px;
+  position: relative; }
+  #imb-startpg-testimonial .content-box {
+    margin-top: 2%; }
+    #imb-startpg-testimonial .content-box .bg-smudge-image {
+      position: absolute;
+      right: 40%;
+      bottom: 2%; }
+    #imb-startpg-testimonial .content-box .testimonial-block .testimonial {
+      background: white;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-left: 0rem;
+      padding-right: 0rem;
+      margin-bottom: 3rem;
+      margin-top: 2rem; }
+      #imb-startpg-testimonial .content-box .testimonial-block .testimonial p {
+        padding-right: 2rem; }
+      #imb-startpg-testimonial .content-box .testimonial-block .testimonial .author-image {
+        border-radius: 50%;
+        margin: 0 auto; }
+      #imb-startpg-testimonial .content-box .testimonial-block .testimonial i.fa {
+        font-size: 2.5rem;
+        color: #A574AE; }
+      #imb-startpg-testimonial .content-box .testimonial-block .testimonial .author-info {
+        margin-top: 3rem; }
 
 /*=====  End of Start page style END  ======*/
 /*====================================

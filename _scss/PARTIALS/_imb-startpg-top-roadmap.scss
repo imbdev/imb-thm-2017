@@ -1,0 +1,22 @@
+/**
+ *
+ * START PAGE TOP ROADMAP 
+ *
+ */
+
+#imb-startpg-top-roadmap-unit {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	
+	.content-box {
+		
+		.headline {
+			margin-bottom: 5rem;
+		}	
+
+		.text-content-purple {
+			background-color: lighten( $imb-primary, 30% );
+		}		
+
+	}
+} 

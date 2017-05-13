@@ -356,7 +356,7 @@ img {
 
 /**
  *
- * HOME PAGE SOCIAL PROOF
+ * HOME PAGE HERO STORY
  *
  */
 @import "PARTIALS/imb-home-hero-story";
@@ -364,7 +364,7 @@ img {
 
 /**
  *
- * HOME PAGE SOCIAL PROOF
+ * HOME PAGE TESTIMONIAL
  *
  */
 @import "PARTIALS/imb-home-testimonial";
@@ -380,10 +380,40 @@ img {
 
 /**
  *
- * HOMR PAGE HERO UNIT (HEADER-STARTPG.PHP)
+ * HOMR PAGE HERO UNIT 
  *
  */
 @import "PARTIALS/imb-startpg-top-hero-unit";
+
+/**
+ *
+ * HOMR PAGE TOP ROADMAP UNIT 
+ *
+ */
+@import "PARTIALS/imb-startpg-top-roadmap";
+
+/**
+ *
+ * HOME PAGE TESTIMONIAL
+ *
+ */
+@import "PARTIALS/imb-startpg-optin-CTA";
+
+
+/**
+ *
+ * HOME PAGE TOP ROADMAP
+ *
+ */
+@import "PARTIALS/imb-startpg-roadmap";
+
+/**
+ *
+ * HOME PAGE TESTIMONIAL
+ *
+ */
+@import "PARTIALS/imb-startpg-testimonial";
+
 
 
 /*=====  End of Start page style END  ======*/

@@ -8,8 +8,14 @@
 
 	min-height: 380px;
 	background-color: $imb-light-ash;
-	background-image: url(/wp-content/uploads/2017/05/top-hero-bg-400x400-lightest.jpg);
 
+	@media ( min-width: 991px ) {
+		background-image: url(/wp-content/uploads/2017/05/top-hero-bg-400x400-lightest.jpg);
+	}
+
+	position: relative;
+	z-index: -1;
+	
 	.content-box {
 		padding-top: 3rem;
 		padding-bottom: 3rem;
@@ -21,13 +27,21 @@
 		.right-img-box {
 
 			.hero-image {
-				padding-top: 2rem;
+				margin-top: 1rem;
+				box-shadow: 1px 1px 8px lighten( $gray-light, 15% );
 			}
 		}
 
 		.left-text-box {
 
+			.hero-image-mobile-bg {
+				position: absolute;
+				z-index: -1;
+				top: 0;
+			}
+
 			.headline {
+				z-index: 100;
 
 				@media ( min-width: 992px ) and ( max-width: 1200px ) {
 
@@ -51,6 +65,8 @@
 				font-size: 1.5rem;
 				padding: 0 !important;
 			}
+
+			
 
 		}
 	}
