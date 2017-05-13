@@ -65,7 +65,7 @@ get_header('startpg'); ?>
 
 <section id="imb-startpg-top-roadmap" class="">
 
-	<section id="imb-startpg-top-roadmap-unit" class="container-fluid">
+	<section class="imb-startpg-top-roadmap-unit white" class="container-fluid">
 		
 		<div class="content-box container">
 			
@@ -93,6 +93,94 @@ get_header('startpg'); ?>
 		</div>
 
 	</section> 
+
+	<section class="imb-startpg-top-roadmap-unit purple" class="container-fluid">
+		
+		<div class="content-box container">
+			
+			<div class="row">
+				<article class="text-content col-sm-7 col-md-7 col-lg-7">
+
+					<h3 class="sub-headline">
+						I want to ...
+					</h3>
+					
+					<h1 class="headline">
+						CREATE GOALS WITH SOUL
+					</h1>
+
+					<a href="#" class="btn btn-primary btn-lg">START HERE &nbsp;></a>
+
+				</article>
+				<article class="col-sm-5 col-md-5 col-lg-5">
+					
+					<img src="http://lorempixel.com/700/450/abstract/6" alt="">
+
+				</article>			
+			</div>
+
+		</div>
+
+	</section> 
+
+	<section class="imb-startpg-top-roadmap-unit white" class="container-fluid">
+		
+		<div class="content-box container">
+			
+			<div class="row">
+				<article class="text-content col-sm-7 col-md-7 col-lg-7">
+
+					<h3 class="sub-headline">
+						I want to ...
+					</h3>
+					
+					<h1 class="headline">
+						AUTOMATE NEW LEADS & SALES USING FACEBOOK & BLOGGING
+					</h1>
+
+					<a href="#" class="btn btn-primary btn-lg">START HERE &nbsp;></a>
+
+				</article>
+				<article class="col-sm-5 col-md-5 col-lg-5">
+					
+					<img src="http://lorempixel.com/700/450/abstract/6" alt="">
+
+				</article>			
+			</div>
+
+		</div>
+
+	</section> 
+
+	<section class="imb-startpg-top-roadmap-unit purple" class="container-fluid">
+		
+		<div class="content-box container">
+			
+			<div class="row">
+				<article class="text-content col-sm-7 col-md-7 col-lg-7">
+
+					<h3 class="sub-headline">
+						I want to ...
+					</h3>
+					
+					<h1 class="headline">
+						KICK START MY NEWORK MARKETING BUSINESS IN 90 DAYS
+					</h1>
+
+					<a href="#" class="btn btn-primary btn-lg">START HERE &nbsp;></a>
+
+				</article>
+				<article class="col-sm-5 col-md-5 col-lg-5">
+					
+					<img src="http://lorempixel.com/700/450/abstract/6" alt="">
+
+				</article>			
+			</div>
+
+		</div>
+
+	</section> 
+
 </section>
 
 <section id="imb-startpg-optin-CTA" class="container-fluid">

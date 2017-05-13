@@ -9,6 +9,11 @@
 	min-height: 380px;
 	background-color: $imb-light-ash;
 
+	@media ( min-width: 600px ) and ( max-width: 991px ) {
+		min-height: 505px;
+	}
+
+
 	@media ( min-width: 991px ) {
 		background-image: url(/wp-content/uploads/2017/05/top-hero-bg-400x400-lightest.jpg);
 	}
@@ -41,8 +46,6 @@
 			}
 
 			.headline {
-				z-index: 100;
-
 				@media ( min-width: 992px ) and ( max-width: 1200px ) {
 
 					font-size: 2.5rem;
@@ -60,13 +63,15 @@
 					font-size: 1.5rem;
 					padding: 0 !important;
 				}
+
+				@media ( min-width: 600px ) and ( max-width: 991px ) {
+					padding-top: 8rem;			
+				}
 			}
 			p {
 				font-size: 1.5rem;
 				padding: 0 !important;
 			}
-
-			
 
 		}
 	}

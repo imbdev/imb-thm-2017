@@ -4,19 +4,34 @@
  *
  */
 
-#imb-startpg-top-roadmap-unit {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+#imb-startpg-top-roadmap {
 	
-	.content-box {
-		
-		.headline {
-			margin-bottom: 5rem;
-		}	
+	.imb-startpg-top-roadmap-unit {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
 
-		.text-content-purple {
-			background-color: lighten( $imb-primary, 30% );
-		}		
+		.content-box {
+			
+			.headline {
+				margin-bottom: 5rem;
+
+				@media ( max-width: 991px ) {
+					font-size: 2.5rem;
+				}
+			}
+
+			.btn {
+				padding: 1.5rem 5rem;
+				border-radius: 50px;
+
+				@media ( max-width: 991px ) {
+					margin-bottom: 4rem;
+				}
+			}	
+		}
+	}
+	.purple {
+		background-color: lighten( $imb-primary, 30% );
 
 	}
 } 
