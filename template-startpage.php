@@ -85,7 +85,8 @@ get_header('startpg'); ?>
 				</article>
 				<article class="col-sm-5 col-md-5 col-lg-5">
 					
-					<img src="http://lorempixel.com/700/450/abstract/6" alt="">
+					<!-- <img class="center-block" src="http://lorempixel.com/700/450/abstract/6" alt=""> -->
+					<img class="center-block" src="/wp-content/uploads/2017/05/imb-startpg-roadmap-img-1-size-700x400.jpg" alt="">
 
 				</article>			
 			</div>
@@ -114,7 +115,8 @@ get_header('startpg'); ?>
 				</article>
 				<article class="col-sm-5 col-md-5 col-lg-5">
 					
-					<img src="http://lorempixel.com/700/450/abstract/6" alt="">
+					<!-- <img class="center-block" src="http://lorempixel.com/700/450/abstract/6" alt=""> -->
+					<img class="center-block" src="/wp-content/uploads/2017/05/imb-startpg-roadmap-img-2-size-700x400.jpg" alt="">
 
 				</article>			
 			</div>
@@ -143,7 +145,8 @@ get_header('startpg'); ?>
 				</article>
 				<article class="col-sm-5 col-md-5 col-lg-5">
 					
-					<img src="http://lorempixel.com/700/450/abstract/6" alt="">
+					<!-- <img class="center-block" src="http://lorempixel.com/700/450/abstract/6" alt=""> -->
+					<img class="center-block" src="/wp-content/uploads/2017/05/imb-startpg-roadmap-img-3-size-700x400.jpg" alt="">
 
 				</article>			
 			</div>
@@ -172,7 +175,8 @@ get_header('startpg'); ?>
 				</article>
 				<article class="col-sm-5 col-md-5 col-lg-5">
 					
-					<img src="http://lorempixel.com/700/450/abstract/6" alt="">
+					<!-- <img class="center-block" src="http://lorempixel.com/700/450/abstract/6" alt=""> -->
+					<img class="center-block" src="/wp-content/uploads/2017/05/imb-startpg-roadmap-img-4-size-700x400.jpg" alt="">
 
 				</article>			
 			</div>
@@ -187,8 +191,8 @@ get_header('startpg'); ?>
 	
 	<div class="content-box">
 		
-		<article class="col-sm-3 col-md-3 col-lg-3"></article>
-		<article class="text-content col-sm-6 col-md-6 col-lg-6">
+		<article class="col-sm-2 col-md-2 col-lg-2"></article>
+		<article class="text-content col-sm-8 col-md-8 col-lg-8">
 			
 			<h1 class="headline">
 				Do you Want To Know How You Can Balance Your
@@ -199,7 +203,7 @@ get_header('startpg'); ?>
 			<a href="#" class="btn btn-primary btn-lg">START HERE &nbsp;></a>
 
 		</article>
-		<article class="col-sm-3 col-md-3 col-lg-3"></article>
+		<article class="col-sm-2 col-md-2 col-lg-2"></article>
 
 	</div>
 

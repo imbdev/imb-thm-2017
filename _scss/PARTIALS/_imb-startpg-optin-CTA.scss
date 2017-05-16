@@ -11,11 +11,17 @@
 			.headline {
 				color: white;
 				font-weight: 300;	
+				@media ( min-width: 1600px ) {
+					font-size: 5rem;
+				}
 			}
 			.btn {
 				padding: 2rem 5rem;
 				border-radius: 50px;
 				@media ( max-width: 1400px ) {
+					margin-bottom: 5rem;
+				}
+				@media ( min-width: 1600px ) {
 					margin-bottom: 5rem;
 				}
 			}
