@@ -236,12 +236,6 @@ add_filter( 'comments_open', 'tweakjp_rm_comments_att', 10 , 2 );
 // Enable shortcodes in text widgets
 add_filter('widget_text','do_shortcode');
 
-// Update CSS within in Admin
-function admin_style() {
-  wp_enqueue_style('admin-styles', get_template_directory_uri().'/admin.css');
-}
-add_action('admin_enqueue_scripts', 'admin_style');
-
 
 /**
  *

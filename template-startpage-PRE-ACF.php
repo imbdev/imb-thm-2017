@@ -24,17 +24,23 @@ get_header('startpg'); ?>
 
 			<article class="left-text-box">
 
-				<h4 class="sub-heading">
-					<!-- WELCOME TO INSPIRED MOMMY BOSS -->
-					<?php the_field('top_hero_sub_headline'); ?>
-				</h4>
+				<h4 class="sub-heading">WELCOME TO INSPIRED MOMMY BOSS</h4>
 				
 				<h1 class="headline">
-					<!-- LET ME HELP YOU REACH YOUR LIFE & BUSINESS GOALS. -->
-					<?php the_field('top_hero_headline'); ?>
+					LET ME HELP YOU REACH YOUR LIFE & BUSINESS GOALS.
 				</h1>
 
-				<?php the_field('top_hero_left_text_block'); ?>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. 
+				</p>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus laudantium, 
+					voluptates officia culpa quod ducimus iste atque.
+				</p>
 
 				<img class="hero-image-mobile-bg img-responsive hidden-md hidden-lg" src="/wp-content/uploads/2017/05/imb-startpg-top-hero-mobile-bg-992w.jpg" alt="">
 
@@ -47,8 +53,7 @@ get_header('startpg'); ?>
 
 			<figure class="right-img-box">
 				
-				<img class="hero-image img-responsive" src="<?php the_field('top_hero_right_hero_image'); ?>" alt="">
-				<!-- <img class="hero-image img-responsive" src="/wp-content/uploads/2017/05/imb-startpg-top-hero-650x400.jpg" alt=""> -->
+				<img class="hero-image img-responsive" src="/wp-content/uploads/2017/05/imb-startpg-top-hero-650x400.jpg" alt="">
 				
 			</figure>
 
@@ -68,22 +73,20 @@ get_header('startpg'); ?>
 				<article class="text-content col-sm-7 col-md-7 col-lg-7">
 
 					<h3 class="sub-headline">
-						<!-- I want to ... -->
-						<?php the_field('top_roadmap_sub_headline_1'); ?>
+						I want to ...
 					</h3>
 					
 					<h1 class="headline">
-						<!-- JUMP START MY FACEBOOK FOLLOWING IN 5 DAYS -->
-						<?php the_field('top_roadmap_headline_1'); ?>
+						JUMP START MY FACEBOOK FOLLOWING IN 5 DAYS
 					</h1>
 
-					<a href="<?php the_field('top_roadmap_left_button_url_1'); ?>" class="btn btn-primary btn-lg"><?php the_field('top_roadmap_left_button_text_1'); ?> &nbsp;></a>
+					<a href="#" class="btn btn-primary btn-lg">START HERE &nbsp;></a>
 
 				</article>
 				<article class="col-sm-5 col-md-5 col-lg-5">
 					
 					<!-- <img class="center-block" src="http://lorempixel.com/700/450/abstract/6" alt=""> -->
-					<img class="center-block" src="<?php the_field('top_roadmap_right_image_1'); ?>" alt="">
+					<img class="center-block" src="/wp-content/uploads/2017/05/imb-startpg-roadmap-img-1-size-700x400.jpg" alt="">
 
 				</article>			
 			</div>
@@ -100,22 +103,20 @@ get_header('startpg'); ?>
 				<article class="text-content col-sm-7 col-md-7 col-lg-7">
 
 					<h3 class="sub-headline">
-						<!-- I want to ... -->
-						<?php the_field('top_roadmap_sub_headline_2'); ?>
+						I want to ...
 					</h3>
 					
 					<h1 class="headline">
-						<!-- JUMP START MY FACEBOOK FOLLOWING IN 5 DAYS -->
-						<?php the_field('top_roadmap_headline_2'); ?>
+						CREATE GOALS WITH SOUL
 					</h1>
 
-					<a href="<?php the_field('top_roadmap_left_button_url_2'); ?>" class="btn btn-primary btn-lg"><?php the_field('top_roadmap_left_button_text_2'); ?> &nbsp;></a>
+					<a href="#" class="btn btn-primary btn-lg">START HERE &nbsp;></a>
 
 				</article>
 				<article class="col-sm-5 col-md-5 col-lg-5">
 					
 					<!-- <img class="center-block" src="http://lorempixel.com/700/450/abstract/6" alt=""> -->
-					<img class="center-block" src="<?php the_field('top_roadmap_right_image_2'); ?>" alt="">
+					<img class="center-block" src="/wp-content/uploads/2017/05/imb-startpg-roadmap-img-2-size-700x400.jpg" alt="">
 
 				</article>			
 			</div>
@@ -132,22 +133,20 @@ get_header('startpg'); ?>
 				<article class="text-content col-sm-7 col-md-7 col-lg-7">
 
 					<h3 class="sub-headline">
-						<!-- I want to ... -->
-						<?php the_field('top_roadmap_sub_headline_3'); ?>
+						I want to ...
 					</h3>
 					
 					<h1 class="headline">
-						<!-- JUMP START MY FACEBOOK FOLLOWING IN 5 DAYS -->
-						<?php the_field('top_roadmap_headline_3'); ?>
+						AUTOMATE NEW LEADS & SALES USING FACEBOOK & BLOGGING
 					</h1>
 
-					<a href="<?php the_field('top_roadmap_left_button_url_3'); ?>" class="btn btn-primary btn-lg"><?php the_field('top_roadmap_left_button_text_3'); ?> &nbsp;></a>
+					<a href="#" class="btn btn-primary btn-lg">START HERE &nbsp;></a>
 
 				</article>
 				<article class="col-sm-5 col-md-5 col-lg-5">
 					
 					<!-- <img class="center-block" src="http://lorempixel.com/700/450/abstract/6" alt=""> -->
-					<img class="center-block" src="<?php the_field('top_roadmap_right_image_3'); ?>" alt="">
+					<img class="center-block" src="/wp-content/uploads/2017/05/imb-startpg-roadmap-img-3-size-700x400.jpg" alt="">
 
 				</article>			
 			</div>
@@ -164,22 +163,20 @@ get_header('startpg'); ?>
 				<article class="text-content col-sm-7 col-md-7 col-lg-7">
 
 					<h3 class="sub-headline">
-						<!-- I want to ... -->
-						<?php the_field('top_roadmap_sub_headline_4'); ?>
+						I want to ...
 					</h3>
 					
 					<h1 class="headline">
-						<!-- JUMP START MY FACEBOOK FOLLOWING IN 5 DAYS -->
-						<?php the_field('top_roadmap_headline_4'); ?>
+						KICK START MY NEWORK MARKETING BUSINESS IN 90 DAYS
 					</h1>
 
-					<a href="<?php the_field('top_roadmap_left_button_url_4'); ?>" class="btn btn-primary btn-lg"><?php the_field('top_roadmap_left_button_text_4'); ?> &nbsp;></a>
+					<a href="#" class="btn btn-primary btn-lg">START HERE &nbsp;></a>
 
 				</article>
 				<article class="col-sm-5 col-md-5 col-lg-5">
 					
 					<!-- <img class="center-block" src="http://lorempixel.com/700/450/abstract/6" alt=""> -->
-					<img class="center-block" src="<?php the_field('top_roadmap_right_image_4'); ?>" alt="">
+					<img class="center-block" src="/wp-content/uploads/2017/05/imb-startpg-roadmap-img-4-size-700x400.jpg" alt="">
 
 				</article>			
 			</div>
@@ -198,11 +195,12 @@ get_header('startpg'); ?>
 		<article class="text-content col-sm-8 col-md-8 col-lg-8">
 			
 			<h1 class="headline">
-				<!-- Do you Want To Know How You Can Balance Your Life, Family and Finances (plus have FUN)	while growing an AWESOME Business? -->
-				<?php the_field('blue_cta_text'); ?>
+				Do you Want To Know How You Can Balance Your
+				Life, Family and Finances (plus have FUN)
+				while growing an AWESOME Business?
 			</h1>
 
-			<a href="<?php the_field('blue_cta_button_url'); ?>" class="btn btn-primary btn-lg"><?php the_field('blue_cta_button_text'); ?> &nbsp;></a>
+			<a href="#" class="btn btn-primary btn-lg">START HERE &nbsp;></a>
 
 		</article>
 		<article class="col-sm-2 col-md-2 col-lg-2"></article>
@@ -216,31 +214,27 @@ get_header('startpg'); ?>
 
 	<div class="content-box container">
 		
-		<h1 class="headline">
-			<!-- A FEW WAYS I CAN HELP YOU -->
-			<?php the_field('middle_optin_roadmap_headline'); ?>
-		</h1>
+		<h1 class="headline">A FEW WAYS I CAN HELP YOU</h1>
 
 		<div class="image-group row">
 
 			<figure class="image-box col-sm-4 col-md-4 col-lg-4">
 				
 				<div class="image-holder">
-					<a href="<?php the_field('middle_optin_roadmap_left_image_url'); ?>" title=""><img class="roadmap-image img-responsive" src="<?php the_field('middle_optin_roadmap_left_image'); ?>" alt=""></a>
+					<a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/left-420x300.jpg" alt=""></a>
 				</div>
 			
 				<article class="roadmap-image-text">
 					
 					<h4 class="text-only">
-						<!-- Free Checklist: Grow Your Business Anywhere with a Laptop and Smart Phone -->
-						<?php the_field('middle_optin_roadmap_left_text'); ?>	
+						Free Checklist: Grow Your Business Anywhere with a Laptop and Smart Phone	
 					</h4>
 					
 				</article>
 
 				<div class="roadmap-button">
 
-					<a href="<?php the_field('middle_optin_roadmap_left_button_url'); ?>" class="btn btn-primary btn-lg"><?php the_field('middle_optin_roadmap_left_button_text'); ?></a>
+					<a href="#" class="btn btn-primary btn-lg">CLICK HERE</a>
 				
 				</div>
 
@@ -313,22 +307,27 @@ get_header('startpg'); ?>
 				<article class="testimonial container-fluid">
 					
 					<div class="image-box col-sm-3 col-md-3 col-lg-3">
-						<img class="author-image img-responsive" src="<?php the_field('start_page_single_testimonial_image'); ?>" alt="">
+						<img class="author-image img-responsive" src="/wp-content/uploads/2016/01/Sharee-Moore-150x150.jpg" alt="">
 					</div>
 					<div class="text-box col-sm-9 col-md-9 col-lg-9">
 
 						<i class="fa fa-quote-left" aria-hidden="true"></i>
 
-						<h3><?php the_field('start_page_single_testimonial_headline'); ?></h3>
+						<h3>Exceeds expectations every time!</h3>
 
 						<p>
-							<?php the_field('start_page_single_testimonial_text'); ?>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
 
 						<i class="fa fa-quote-right pull-right" aria-hidden="true"></i>
 
 						<div class="author-info">
-							<strong><!-- Sharee Moore --><?php the_field('start_page_single_testimonial_client_name'); ?></strong> | <?php the_field('start_page_single_testimonial_client_description'); ?><!-- Author & Speaker -->
+							<strong>Sharee Moore</strong> | Author & Speaker
 						</div>
 						
 					</div>
