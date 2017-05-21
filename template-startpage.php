@@ -249,20 +249,22 @@ get_header('startpg'); ?>
 			<figure class="image-box col-sm-4 col-md-4 col-lg-4">
 				
 				<div class="image-holder">
-					<a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/middle-420x300.jpg" alt=""></a>
+					<a href="<?php the_field('middle_optin_roadmap_middle_image_url'); ?>" title=""><img class="roadmap-image img-responsive" src="<?php the_field('middle_optin_roadmap_middle_image'); ?>" alt=""></a>
+					<!-- <a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/middle-420x300.jpg" alt=""></a> -->
 				</div>
 			
 				<article class="roadmap-image-text">
 					
 					<h4 class="text-only">
-						How To Create a Side Hustle using Facebook
+						<?php the_field('middle_optin_roadmap_middle_text'); ?>	
+						<!-- How To Create a Side Hustle using Facebook -->
 					</h4>
 					
 				</article>
 
 				<div class="roadmap-button">
 
-					<a href="#" class="btn btn-primary btn-lg">CLICK HERE</a>
+					<a href="<?php the_field('middle_optin_roadmap_middle_button_url'); ?>" class="btn btn-primary btn-lg"><?php the_field('middle_optin_roadmap_middle_button_text'); ?></a>
 				
 				</div>
 				
@@ -271,20 +273,22 @@ get_header('startpg'); ?>
 			<figure class="image-box col-sm-4 col-md-4 col-lg-4">
 				
 				<div class="image-holder">
-					<a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/right-420x300.jpg" alt=""></a>
+					<a href="<?php the_field('middle_optin_roadmap_right_image_url'); ?>" title=""><img class="roadmap-image img-responsive" src="<?php the_field('middle_optin_roadmap_right_image'); ?>" alt=""></a>
+					<!-- <a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/right-420x300.jpg" alt=""></a> -->
 				</div>
 			
 				<article class="roadmap-image-text">
 					
 					<h4 class="text-only">
-						How To Attract Other Leaders using Social Media onto Your Network Marketing Team
+						<?php the_field('middle_optin_roadmap_right_text'); ?>	
+						<!-- How To Attract Other Leaders using Social Media onto Your Network Marketing Team -->
 					</h4>
 					
 				</article>
 
 				<div class="roadmap-button">
 
-					<a href="#" class="btn btn-primary btn-lg">CLICK HERE</a>
+					<a href="<?php the_field('middle_optin_roadmap_right_button_url'); ?>" class="btn btn-primary btn-lg"><?php the_field('middle_optin_roadmap_right_button_text'); ?></a>
 				
 				</div>
 				
