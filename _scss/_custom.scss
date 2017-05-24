@@ -1,9 +1,10 @@
 $imb-primary: #A574AE; //purple
 $imb-secondary: #434876; //darkblue
 $imb-light-ash: #EBEFF2;
+$imb-gray: #2A2829; //dark gray
 
 $imb-teal: #5FC5BF;
-$imb-gray: #242424;
+// $imb-gray: #242424;
 $imb-light-gray: #f9fbfc;
 $imb-red: #bb324a;
 
@@ -521,26 +522,66 @@ img {
 
 /**
  *
- * Blog Styles
+ * Blog Index Page Styles
  *
  */
 
-.blog-post {
+#blog-page-header {
+	position: relative;
+	z-index: 0;
 
+	@media ( min-width: 1500px ) {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+
+	.blog-index-header-image {
+		position: absolute;
+		top: 0;
+		z-index: -1;
+	}
+	background: lighten( $imb-gray, 2% );
+	
+	.container {
+		color: white;
+		z-index: 100;
+		
+		.featured-post {
+
+			.headline {
+				color: white;
+				margin-top: 3rem;
+			}
+
+			a {
+				&:hover {
+					.post-title {
+						color: lighten( $imb-primary, 20% );
+					}
+				}
+			}
+
+			.post-title {
+				color: white;
+				font-size: 2rem;
+			}
+
+			.btn {
+				// margin-top: 3rem;
+				margin-bottom: 2rem;
+			}			
+		}
+	}
+}
+
+.blog-post {
 	margin-bottom: 1rem;
 	margin-top: 5rem;
 	margin-right: 0rem;
 	margin-left: .15rem;
-	// font-family: 'Raleway', sans-serif;
-	// font-family: 'Slabo 27px', serif;
-	font-family: 'Cormorant Garamond', serif;
 	
 	.entry-header {
-
 		h1, h2 {
-			// font-family: 'Raleway', sans-serif;
-			// font-family: 'Slabo 27px', serif;
-			font-family: 'Cormorant Garamond', serif;
 			text-transform: uppercase;
 			
 			font-size: 2.2rem;
@@ -548,12 +589,16 @@ img {
 			padding-top: 0rem;
 
 			a {
-				color: lighten( $imb-teal, 0% );
+				color: lighten( $imb-primary, 0% );
 				text-decoration: none;
 				&:hover {
-					color: lighten( $imb-primary, 0% );
+					color: lighten( $imb-primary, 10% );
 				}
 			}
+			
+			@media ( min-width: 500px ) and ( max-width: 768px ) {
+				text-align: center;
+			}			
 
 
 		}
@@ -587,6 +632,11 @@ img {
 				@include transform-style(preserve-3d);
 				opacity: .5;
 			}
+
+			@media ( min-width: 500px ) and ( max-width: 768px ) {
+				width: 60%;
+				margin: 0 auto;
+			}
 		}
 
 		.for-spanish {
@@ -604,14 +654,15 @@ img {
 		padding-right: 1.5rem;
 		padding-top: 2rem;
 		p {
-			// font-family: 'Raleway', sans-serif;
-			// font-family: 'Slabo 27px', serif;
-			font-family: 'Cormorant Garamond', serif;
-
-			font-size: 1.8rem;
+			font-size: 2rem;
 			font-variant: 500;
 			color: lighten( $imb-gray, 25% );
 			padding-top: 2rem;
+
+			@media ( min-width: 769px ) and ( max-width: 1199px ) {
+				font-size: 1.5rem;
+				padding-top: 0rem;
+			}
 		}
 	}
 
@@ -626,13 +677,13 @@ img {
 	.moretag {
 		display: block;
 		margin-top: 3rem;
-		background-color: transparent;
-		border: 1px solid $imb-teal;
-		color: $imb-primary;
+		background-color: $imb-primary;
+		color: white;
 
 		&:hover {
-			background-color: $imb-teal;
-			color: white;
+			border: 1px solid $imb-primary;
+			background-color: transparent;
+			color: $imb-primary;
 		}
 	}
 
@@ -881,110 +932,12 @@ img {
  *
  */
 
-.contact-header {
-	h1 {
-		font-size: 5rem;
-	}
-} 
-.entry-content {
-
-	// border: 1px solid green;
-	.only-text {
-		padding-top: 0;
-	}
-	
-	.contact-top-row {
-		// border: 1px solid red;
-
-		h3 {
-			font-size: 4rem;
-			font-weight: 300;
-		}
-
-		.contact-image-container {
-			// border: 1px solid red;
-			padding-top: 6rem;
-		}
-
-		.contact-social {
-			// border: 1px solid blue;
-			padding-top: 4rem;
-
-			li {
-				list-style: none;
-				padding: 2rem;
-				@include transition(all .6s ease-in-out);
-
-				i {
-					font-size: 2.9rem;
-					// @include transition(all .5s ease-in-out);
-
-					// &:hover {
-					
-					// }
-				}
-
-
-				// padding: 2rem;
-				height: 70px;
-				width: 70px;
-				background-color: $imb-gray;
-				border-radius: 50%;
-
-
-				&:hover {
-
-					// @include transition-property(transform);
-					// @include transition-duration(1.0s);
-					// @include transition-timing-function(ease-in);
-					// @include transition-delay(0.5s);
-					background-color: darken( $imb-primary, 30% );
-
-						@include transform(translateY(50px));
-						@include transform(scale(0.9) rotate(-3deg));
-						@include transform-origin(center top);
-						@include transform-style(preserve-3d);
-
-				}
-
-				a {
-					font-size: 2rem;
-					color: $imb-teal;
-				}
-				
-			}
-			p {
-				font-size: 2.5rem;
-				color: $imb-teal;
-				padding-top: 2rem;
-			}		
-		}
-	}	
-
-	.the-form {
-		// border: 2px solid blue;
-		// background-color: lighten( $imb-gray, 10% );
-		background-color: transparent;
-		border: 1px solid $imb-teal;
-		padding-top: 4rem;
-		padding-bottom: 4rem;
-		margin-bottom: 10rem;
-		margin-top: 5rem;
-
-		.wpcf7-textarea {
-			height: 16rem;
-		}
-		.wpcf7-submit {
-			width: 20rem;
-			float: right;
-		}
-		p {
-			color: lighten( gray, 10% );
-		}
-	}
-
-}
-
+ .imb-contact-page-left-text-only {
+ 	// border: 1rem solid red;
+ 	@media ( min-width: 1400px ) {
+ 		padding-top: 8rem;
+ 	}
+ }
 
 /**
  *
