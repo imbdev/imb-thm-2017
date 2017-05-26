@@ -6317,7 +6317,7 @@ img {
  *
  */
 #imb-startpg-top-hero-unit {
-  min-height: 380px;
+  min-height: 400px;
   background-color: #EBEFF2;
   position: relative;
   z-index: -1; }
@@ -6555,13 +6555,32 @@ img {
 
 /**
  *
+ * BLOG INDEX PAGE STYLES
+ *
+ */
+/**
+ *
  * Blog Index Page Styles
  *
  */
 #blog-page-header {
   position: relative;
   z-index: 0;
+  min-height: 500px;
   background: #2f2d2e; }
+  @media (min-width: 430px) {
+    #blog-page-header {
+      min-height: 400px; } }
+  @media (min-width: 800px) and (max-width: 991px) {
+    #blog-page-header {
+      min-height: 450px; } }
+  @media (min-width: 1000px) {
+    #blog-page-header {
+      min-height: 300px; } }
+  @media (min-width: 1200px) {
+    #blog-page-header {
+      padding-top: 1rem;
+      padding-bottom: 3rem; } }
   @media (min-width: 1500px) {
     #blog-page-header {
       padding-top: 5rem;
@@ -6570,14 +6589,25 @@ img {
     position: absolute;
     top: 0;
     z-index: -1; }
+    @media (max-width: 600px) {
+      #blog-page-header .blog-index-header-image {
+        margin-top: 5rem; } }
   #blog-page-header .container {
     color: white;
     z-index: 100; }
     #blog-page-header .container .featured-post .headline {
       color: white;
       margin-top: 3rem; }
-    #blog-page-header .container .featured-post a:hover .post-title {
-      color: #cfb4d4; }
+      @media (min-width: 800px) and (max-width: 991px) {
+        #blog-page-header .container .featured-post .headline {
+          margin-top: 8rem; } }
+      @media (min-width: 992px) {
+        #blog-page-header .container .featured-post .headline {
+          margin-top: 2rem; } }
+    #blog-page-header .container .featured-post a:hover {
+      text-decoration: none; }
+      #blog-page-header .container .featured-post a:hover .post-title {
+        color: #cfb4d4; }
     #blog-page-header .container .featured-post .post-title {
       color: white;
       font-size: 2rem; }
@@ -6589,30 +6619,35 @@ img {
   margin-top: 5rem;
   margin-right: 0rem;
   margin-left: .15rem; }
+  @media (max-width: 768px) {
+    .blog-post .container-fluid {
+      padding-left: 0rem;
+      padding-right: 0rem;
+      margin-left: 0rem;
+      margin-right: 0rem; } }
   .blog-post .entry-header h1, .blog-post .entry-header h2 {
     text-transform: uppercase;
     font-size: 2.2rem;
     font-weight: 700;
-    padding-top: 0rem; }
+    padding-top: 0rem;
+    margin-top: 0rem; }
     .blog-post .entry-header h1 a, .blog-post .entry-header h2 a {
       color: #a574ae;
       text-decoration: none; }
       .blog-post .entry-header h1 a:hover, .blog-post .entry-header h2 a:hover {
         color: #ba94c1; }
-    @media (min-width: 500px) and (max-width: 768px) {
+    @media (max-width: 768px) {
       .blog-post .entry-header h1, .blog-post .entry-header h2 {
-        text-align: center; } }
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem; } }
   .blog-post .entry-header .entry-meta {
     display: none;
     padding-bottom: 1rem;
-    padding-left: 2rem;
     color: #eeeeee; }
     .blog-post .entry-header .entry-meta a {
       color: #a574ae; }
   .blog-post .featured-img {
-    padding-bottom: 2rem;
-    padding-left: 1.3rem;
-    padding-right: 1.3rem; }
+    padding-bottom: 2rem; }
     .blog-post .featured-img img {
       -webkit-transition: all 1s ease-in-out;
       -moz-transition: all 1s ease-in-out;
@@ -6640,25 +6675,16 @@ img {
         -o-transform-style: preserve-3d;
         transform-style: preserve-3d;
         opacity: .5; }
-      @media (min-width: 500px) and (max-width: 768px) {
-        .blog-post .featured-img img {
-          width: 60%;
-          margin: 0 auto; } }
     .blog-post .featured-img .for-spanish {
       margin-top: 3.5rem; }
-  .blog-post .only-text {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 2rem; }
-    .blog-post .only-text p {
-      font-size: 2rem;
-      font-variant: 500;
-      color: #6b6669;
-      padding-top: 2rem; }
-      @media (min-width: 769px) and (max-width: 1199px) {
-        .blog-post .only-text p {
-          font-size: 1.5rem;
-          padding-top: 0rem; } }
+  .blog-post .only-text p {
+    font-size: 2rem;
+    font-variant: 500;
+    color: #6b6669; }
+    @media (min-width: 769px) and (max-width: 1199px) {
+      .blog-post .only-text p {
+        font-size: 1.5rem;
+        padding-top: 0rem; } }
   .blog-post .entry-footer {
     padding-bottom: 2rem;
     padding-top: 2rem; }
@@ -6666,7 +6692,8 @@ img {
     display: block;
     margin-top: 3rem;
     background-color: #A574AE;
-    color: white; }
+    color: white;
+    border-radius: 50px; }
     .blog-post .moretag:hover {
       border: 1px solid #A574AE;
       background-color: transparent;

@@ -41,7 +41,7 @@ function moose_frame_setup() {
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
-	add_image_size( 'blog-size', 400, 400, true );
+	add_image_size( 'blog-size', 400, 200, true );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -218,7 +218,7 @@ require get_template_directory() . '/inc/wp_bootstrap_navwalker.php';
 // Replaces the excerpt "more" text by a link
 function new_excerpt_more($more) {
        global $post;
-	return '<a class="moretag btn btn-success" href="'. get_permalink($post->ID) . '"> Read the full article...</a>';
+	return ' ... <a class="moretag btn btn-success" href="'. get_permalink($post->ID) . '"> Read The Full Article</a>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 
@@ -241,6 +241,12 @@ function admin_style() {
   wp_enqueue_style('admin-styles', get_template_directory_uri().'/admin.css');
 }
 add_action('admin_enqueue_scripts', 'admin_style');
+
+// LIMIT THE EXCERPT LENGTH
+function custom_excerpt_length( $length ) {
+  return 50;
+}
+// add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 
 /**

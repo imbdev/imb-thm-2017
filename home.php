@@ -17,7 +17,7 @@ get_header('startpg'); ?>
 <style type="text/css" media="screen">
 
 
-	@media ( min-width: 1200px ) {
+	@media ( min-width: 992px ) {
 
 		#blog-page-header {
 			/* min-height: 600px; */
@@ -35,7 +35,7 @@ get_header('startpg'); ?>
 
 	<div class="container">
 		
-		<div class="col-sm-12 col-md-6 col-lg-6">
+		<div class="col-sm-12 col-md-12 col-lg-6">
 
 			<article class="featured-post">
 				
@@ -58,14 +58,10 @@ get_header('startpg'); ?>
 			</article>
 			
 		</div>
-		<!-- <figure class="col-lg-6">
 
-			<img class="blog-index-header-image visible-lg img-responsive" src="/wp-content/uploads/2017/05/blog-index-header-img-1920x600.jpg" alt="">
-			
-		</figure> -->
 	</div>
 
-	<img class="blog-index-header-image hidden-lg img-responsive" src="/wp-content/uploads/2017/05/blog-index-header-img-1920x600.jpg" alt="">
+	<img class="blog-index-header-image hidden-md hidden-lg img-responsive" src="/wp-content/uploads/2017/05/blog-index-header-img-mobile-1000x500.jpg" alt="">
 
 	
 </section>
