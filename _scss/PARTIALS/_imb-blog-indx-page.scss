@@ -214,3 +214,157 @@
 	}
 
 }
+
+#blog-page-optin-block {
+	min-height: 400px;
+	padding-top: 4rem;
+	background-color: $imb-primary;
+
+	@media ( min-width: 500px ) {
+		// border: 1rem solid red;
+		padding-top: 7rem;
+	}
+	
+	.text-block {
+
+		.sub-heading {
+			color: white;
+		}
+		.heading {
+			color: white;
+			font-weight: 900;
+		}
+		.leadbox-embed {
+			margin-top: 3rem;
+		}
+	}
+
+	.image-block {
+
+		.optin-right-image {
+			// margin-top: -5rem;
+		}
+	}
+
+	@media ( min-width: 769px ) and ( max-width: 992px ) {
+		// border: 1rem solid red;
+		padding-top: 6rem;
+
+		.heading {
+			font-size: 3.5rem;
+		}
+	}
+}
+
+
+#blog-most-popular-block {
+
+	background: url(/wp-content/uploads/2017/05/top-hero-bg-400x400-lightest.jpg) fixed;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+
+	.header-block {
+		text-align: center;
+
+		.sub-heading {
+			margin-bottom: -2rem !important;
+			font-size: 1.6rem;
+			font-weight: 300;
+		}
+		
+		.heading {
+			position: relative;
+			padding-bottom: 3rem;
+
+			span {
+				font-weight: 900;
+
+				@media ( min-width: 992px ) {
+					&:before {
+					    content: "";
+					    position: absolute;
+					    height: 5px;
+					    border-bottom: 1px solid #000;
+					    top: 17px;
+					    width: 300px;	
+					    right: 70%;
+					}
+					&:after {
+					    content: "";
+					    position: absolute;
+					    height: 5px;
+					    border-bottom: 1px solid #000;
+					    top: 17px;
+					    width: 300px;	
+					    left: 70%;
+					}					
+				}
+			}
+		}		
+	}
+
+	.content-block {
+
+		.block-title {
+			font-size: 2rem;
+			font-weight: 600;
+		}
+
+		.featured-image {
+
+			a {
+				img {
+					margin: 0 auto;
+				}
+			}
+		}
+
+		@media ( max-width: 768px ) {
+			text-align: center;
+
+			.block-text {
+				padding-bottom: 2rem;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

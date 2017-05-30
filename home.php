@@ -20,10 +20,8 @@ get_header('startpg'); ?>
 	@media ( min-width: 992px ) {
 
 		#blog-page-header {
-			/* min-height: 600px; */
 			background: url(/wp-content/uploads/2017/05/blog-index-header-img-1920x600.jpg) no-repeat;
 			  background-size: 100%;
-			  /* background-position: 10% 20%; */
 		}		
 	}
 
@@ -31,7 +29,7 @@ get_header('startpg'); ?>
 
 <section id="blog-page-header">
 
-
+<!-- <h1>this blog template home.php</h1> -->
 
 	<div class="container">
 		
@@ -108,26 +106,187 @@ get_header('startpg'); ?>
 
 </section>
 
-<section id="single-btn-optin-widget" class="">
+<section id="blog-page-optin-block">
 
-	<div class="container">
+	<main class="container">
+		
+		<div class="col-sm-12 col-md-6 col-lg-6">
 
-		<article id="widget-box" class="col-sm-6 col-md-6 col-lg-6 text-center">
+			<article class="text-block text-center">
 
-			<?php 
-				if ( ! is_active_sidebar( 'page-bottom' ) ) {
-					return;
-				}
+				<h3 class="sub-heading">JOIN OVER 200,000 SUBSCRIBERS</h3>
 
-				dynamic_sidebar( 'page-bottom' ); 
+				<h1 class="heading">GET FREE UPDATES</h1>
 
-			?>	
+				<div class="leadbox-embed center-block">
+					<script src="//static.leadpages.net/leadboxes/current/embed.js" async defer></script> <button data-leadbox-popup="14e99a133f72a2:142918c46b46dc" style="background: rgb(67, 72, 117);border-color: rgb(67, 72, 117);border-radius: 20px;color: #FFFFFF;display: inline-block;vertical-align: middle;padding: 16px 32px;min-width: 192px;border: 1px solid rgb(67, 72, 117);font-size: 1rem;font-family: Helvetica, Arial, sans-serif;text-align: center;outline: 0;line-height: 1;cursor: pointer;-webkit-transition: background 0.3s, color 0.3s, border 0.3s;transition: background 0.3s, color 0.3s, border 0.3s;  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);">CLICK HERE TO SUBSCRIBE</button> 									
+				</div>			
+				
+			</article>
 			
-		</article>		
-	</div>
+		</div>
+		<div class="col-md-6 col-lg-6 visible-md visible-lg">
+
+			<figure class="image-block">
+				
+				<img class="optin-right-image img-responsive" src="/wp-content/uploads/2017/05/imb-blgindx-optin-650x400.png" alt="">
+
+			</figure>
+			
+		</div>
+
+	</main>
 	
 </section>
 
+<section id="blog-most-popular-block">
+
+	<main class="container">
+
+		<div class="header-block row">
+
+            <p class="sub-heading text-center">Want More Helpful Stuff? Check Out</p>
+            
+            <h3 class="heading"><span>
+            	OUR MOST POPULAR RESOURCES
+            </span></h3>
+
+        </div>	
+	
+		<div class="content-block row">
+
+			<div class="col-sm-4 col-md-4 col-lg-4">
+
+				<figure class="featured-image">
+					
+					<a href="#">
+						<img class="optin-right-image img-responsive" src="/wp-content/uploads/2017/05/Screen-Shot-2017-05-30-at-7.43.30-PM.png" alt="">
+					</a>
+
+				</figure>
+
+				<a href="#">
+					<h3 class="block-title">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</h3>
+				</a>
+				
+				<p class="block-text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt.
+				</p>
+				
+			</div>
+			<div class="col-sm-4 col-md-4 col-lg-4">
+
+				<figure class="featured-image">
+					
+					<a href="#">
+						<img class="optin-right-image img-responsive" src="/wp-content/uploads/2017/05/Screen-Shot-2017-05-30-at-7.43.30-PM.png" alt="">
+					</a>
+
+				</figure>
+
+				<a href="#">
+					<h3 class="block-title">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</h3>
+				</a>
+				
+				<p class="block-text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt.
+				</p>
+				
+			</div>
+			<div class="col-sm-4 col-md-4 col-lg-4">
+
+				<figure class="featured-image">
+					
+					<a href="#">
+						<img class="optin-right-image img-responsive" src="/wp-content/uploads/2017/05/Screen-Shot-2017-05-30-at-7.43.30-PM.png" alt="">
+					</a>
+
+				</figure>
+
+				<a href="#">
+					<h3 class="block-title">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</h3>
+				</a>
+				
+				<p class="block-text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt.
+				</p>
+				
+			</div>
+				
+		</div>
+
+		<div class="content-block row">
+
+			<div class="col-sm-4 col-md-4 col-lg-4">
+
+				<figure class="featured-image">
+					
+					<a href="#">
+						<img class="optin-right-image img-responsive" src="/wp-content/uploads/2017/05/Screen-Shot-2017-05-30-at-7.43.30-PM.png" alt="">
+					</a>
+
+				</figure>
+
+				<a href="#">
+					<h3 class="block-title">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</h3>
+				</a>
+				
+				<p class="block-text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt.
+				</p>
+				
+			</div>
+			<div class="col-sm-4 col-md-4 col-lg-4">
+
+				<figure class="featured-image">
+					
+					<a href="#">
+						<img class="optin-right-image img-responsive" src="/wp-content/uploads/2017/05/Screen-Shot-2017-05-30-at-7.43.30-PM.png" alt="">
+					</a>
+
+				</figure>
+
+				<a href="#">
+					<h3 class="block-title">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</h3>
+				</a>
+				
+				<p class="block-text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt.
+				</p>
+				
+			</div>
+			<div class="col-sm-4 col-md-4 col-lg-4">
+
+				<figure class="featured-image">
+					
+					<a href="#">
+						<img class="optin-right-image img-responsive" src="/wp-content/uploads/2017/05/Screen-Shot-2017-05-30-at-7.43.30-PM.png" alt="">
+					</a>
+
+				</figure>
+
+				<a href="#">
+					<h3 class="block-title">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</h3>
+				</a>
+				
+				<p class="block-text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt.
+				</p>
+				
+			</div>
+				
+		</div>
+		
+
+	</main>
+	
+</section>
 
 
 
