@@ -159,15 +159,17 @@ get_header('startpg'); ?>
 
 				<figure class="featured-image">
 					
-					<a href="#">
-						<img class="optin-right-image img-responsive" src="/wp-content/uploads/2017/05/Screen-Shot-2017-05-30-at-7.43.30-PM.png" alt="">
-					</a>
+					<script src="//static.leadpages.net/leadboxes/current/embed.js" async defer></script> <img style="cursor:pointer;" data-leadbox-popup="14e99a133f72a2:142918c46b46dc" src="https://lh3.googleusercontent.com/Zze4WNPrUiTu3BL4zbLw9JY-VUPBRFlyjeoWp_D2tiP_bn5yMka2dmIayyfChelACNKs-qcwP-OTuAVWeJgkxiE=s0" alt="Click here to subscribe"/> 					
 
 				</figure>
 
-				<a href="#">
-					<h3 class="block-title">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</h3>
-				</a>
+				
+				<h3 class="block-title">
+				
+					<script src="//static.leadpages.net/leadboxes/current/embed.js" async defer></script> <a href="" data-leadbox-popup="14e99a133f72a2:142918c46b46dc">GET YOUR FIRST 10,000 SUBSCRIBERS SPACESHIP</a> 						
+				
+				</h3>
+				
 				
 				<p class="block-text">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -179,15 +181,19 @@ get_header('startpg'); ?>
 
 				<figure class="featured-image">
 					
-					<a href="#">
+					<a href="http://imb.local/how-to-reach-your-business-goals-with-marketing/" target="_blank">
 						<img class="optin-right-image img-responsive" src="/wp-content/uploads/2017/05/Screen-Shot-2017-05-30-at-7.43.30-PM.png" alt="">
 					</a>
 
 				</figure>
 
-				<a href="#">
-					<h3 class="block-title">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</h3>
-				</a>
+				
+					<h3 class="block-title">
+
+						<a href="#">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</a>
+					
+					</h3>
+				
 				
 				<p class="block-text">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -199,22 +205,26 @@ get_header('startpg'); ?>
 
 				<figure class="featured-image">
 					
-					<a href="#">
+					<a href="http://google.com" target="_blank">
 						<img class="optin-right-image img-responsive" src="/wp-content/uploads/2017/05/Screen-Shot-2017-05-30-at-7.43.30-PM.png" alt="">
 					</a>
 
 				</figure>
 
-				<a href="#">
-					<h3 class="block-title">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</h3>
-				</a>
+				
+					<h3 class="block-title">
+
+						<a href="#">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</a>
+					
+					</h3>
+				
 				
 				<p class="block-text">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt.
 				</p>
 				
-			</div>
+			</div>			
 				
 		</div>
 
@@ -224,15 +234,17 @@ get_header('startpg'); ?>
 
 				<figure class="featured-image">
 					
-					<a href="#">
-						<img class="optin-right-image img-responsive" src="/wp-content/uploads/2017/05/Screen-Shot-2017-05-30-at-7.43.30-PM.png" alt="">
-					</a>
+					<script src="//static.leadpages.net/leadboxes/current/embed.js" async defer></script> <img style="cursor:pointer;" data-leadbox-popup="14e99a133f72a2:142918c46b46dc" src="https://lh3.googleusercontent.com/Zze4WNPrUiTu3BL4zbLw9JY-VUPBRFlyjeoWp_D2tiP_bn5yMka2dmIayyfChelACNKs-qcwP-OTuAVWeJgkxiE=s0" alt="Click here to subscribe"/> 					
 
 				</figure>
 
-				<a href="#">
-					<h3 class="block-title">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</h3>
-				</a>
+				
+				<h3 class="block-title">
+				
+					<script src="//static.leadpages.net/leadboxes/current/embed.js" async defer></script> <a href="" data-leadbox-popup="14e99a133f72a2:142918c46b46dc">GET YOUR FIRST 10,000 SUBSCRIBERS SPACESHIP</a> 						
+				
+				</h3>
+				
 				
 				<p class="block-text">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -244,15 +256,19 @@ get_header('startpg'); ?>
 
 				<figure class="featured-image">
 					
-					<a href="#">
+					<a href="http://imb.local/how-to-reach-your-business-goals-with-marketing/" target="_blank">
 						<img class="optin-right-image img-responsive" src="/wp-content/uploads/2017/05/Screen-Shot-2017-05-30-at-7.43.30-PM.png" alt="">
 					</a>
 
 				</figure>
 
-				<a href="#">
-					<h3 class="block-title">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</h3>
-				</a>
+				
+					<h3 class="block-title">
+
+						<a href="#">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</a>
+					
+					</h3>
+				
 				
 				<p class="block-text">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -264,22 +280,26 @@ get_header('startpg'); ?>
 
 				<figure class="featured-image">
 					
-					<a href="#">
+					<a href="http://google.com" target="_blank">
 						<img class="optin-right-image img-responsive" src="/wp-content/uploads/2017/05/Screen-Shot-2017-05-30-at-7.43.30-PM.png" alt="">
 					</a>
 
 				</figure>
 
-				<a href="#">
-					<h3 class="block-title">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</h3>
-				</a>
+				
+					<h3 class="block-title">
+
+						<a href="#">HOW TO GET YOUR FIRST 5,000 SUBSCRIBERS EBOOK</a>
+					
+					</h3>
+				
 				
 				<p class="block-text">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt.
 				</p>
 				
-			</div>
+			</div>		
 				
 		</div>
 		
@@ -287,6 +307,60 @@ get_header('startpg'); ?>
 	</main>
 	
 </section>
+
+<section id="blog-social-proof-block">
+	
+	<main>
+
+		<h4 class="heading text-center">WE HAVE BEEN FEATURED & QUOTED ON</h4>
+
+		<div class="logo-box">
+			
+			<img class="logo-img img-responsive" src="/wp-content/uploads/2017/05/logo-inc-200x60.png" alt="">
+			<img class="logo-img img-responsive" src="/wp-content/uploads/2017/05/logo-entreprenure-200x60.png" alt="">
+			<img class="logo-img img-responsive" src="/wp-content/uploads/2017/05/logo-fastco-200x60.png" alt="">
+			<img class="logo-img img-responsive" src="/wp-content/uploads/2017/05/logo-forbes-200x60.png" alt="">
+			<img class="logo-img img-responsive" src="/wp-content/uploads/2017/05/logo-inc-200x60.png" alt="">
+			<img class="logo-img img-responsive" src="/wp-content/uploads/2017/05/logo-entreprenure-200x60.png" alt="">
+
+		</div>
+
+		<div class="quote-box">
+			
+			<article class="quote-content">
+				
+				<i class="fa fa-quote-left text-center" aria-hidden="true"></i>
+
+				<h1 class="quote text-center">I very much enjoy your webinars, thank you so much. AWESOME JOB IMB!</h1>
+
+				<i class="fa fa-quote-right text-center" aria-hidden="true"></i>	
+
+				<h4 class="client text-center">-- Happy Client</h4>		
+				
+			</article>
+
+		</div>
+
+			
+	</main>	
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

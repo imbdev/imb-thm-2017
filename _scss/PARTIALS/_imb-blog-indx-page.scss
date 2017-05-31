@@ -259,7 +259,7 @@
 
 #blog-most-popular-block {
 
-	background: url(/wp-content/uploads/2017/05/top-hero-bg-400x400-lightest.jpg) fixed;
+	// background: url(/wp-content/uploads/2017/05/top-hero-bg-400x400-lightest.jpg) fixed;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 
@@ -311,6 +311,11 @@
 		}
 
 		.featured-image {
+			@include transition(all 0.7s ease-in-out);
+
+			&:hover {
+				opacity: .5;
+			}
 
 			a {
 				img {
@@ -330,6 +335,57 @@
 }
 
 
+#blog-social-proof-block {
+	min-height: 500px;
+	background-color: $imb-secondary;
+	background: url(/wp-content/uploads/2017/05/background-imb-blg-social.jpg) fixed;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	
+	.heading {
+		color: white;
+		padding-bottom: 5rem;
+		font-weight: bold;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.logo-box {
+		@include display(flex);
+		@include justify-content(space-around);
+		flex-wrap: wrap;
+
+		.logo-img {
+			padding-bottom: 2rem;
+		}
+	}
+
+	.quote-box {
+		@include display(flex);
+		margin-top: 5rem;
+
+		.quote-content {
+			margin: auto;
+			text-align: center;
+
+			.quote {
+				color: lighten( $imb-primary, 20% );
+				padding-left: 2rem;
+				padding-right: 2rem;
+			}
+			.client {
+				color: lighten( $imb-primary, 30% );
+			}
+			i {
+				color: lighten( $imb-primary, 15% );
+				font-size: 5rem;
+				padding: 3rem;
+			}
+		}
+	}
+}
 
 
 
