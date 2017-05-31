@@ -676,92 +676,11 @@ img {
 
 /**
  *
- * Praise Block Styles
+ * PRAISE PAGE STYLES
  *
  */
-.praise-block {
-	// border: 1px solid red;
-	margin-top: 4rem;
-	// @include background(linear-gradient( rgba( $silver, .8 ), rgba( $imb-primary, .5 ) ) left repeat);
-	@include transition(all .5s ease-in-out);
-	padding-top: 3rem;
-	padding-right: 5rem;
-	padding-left: 3rem;
 
-	.no-image {
-		padding-left: 5rem;
-	}
-
-	.icon-praise {
-		i {
-			color: $imb-primary;
-		}
-	}
-
-	.praise-title {
-		a {
-			color: darken( $imb-primary, 10% );
-		}
-	}
-
-	&:hover, &:active {
-		background-color: $imb-primary;
-
-		.icon-praise {
-			i {
-				color: $gray-lighter;
-			}
-		}		
-		
-		.praise-text {
-			p {
-				color: lighten( $imb-primary, 55% );
-				
-			}
-			h3 {
-				color: lighten( $gray-lighter, 50% );
-			}
-		}
-		.praise-title {
-			color: white;
-			a {
-				color: $imb-teal;
-			}
-		}
-	}
-
-	img {
-		float: left;
-		padding-top: 5rem;
-	}
-
-	.praise-text {
-
-		p {
-			// font-family: 'Raleway', sans-serif;
-			// font-family: 'Slabo 27px', serif;
-			font-family: 'Cormorant Garamond', serif;
-			font-size: 2rem;
-			font-weight: 300;
-			color: lighten( $imb-gray, 25% );
-			padding: 2rem;
-			padding-top: 1rem;
-		}
-
-		h3 {
-			color: lighten( $imb-primary, 0% );
-		}		
-	}
-
-	.praise-title {
-		font-weight: 700;
-		font-size: 2rem;
-		font-variant: small-caps;
-		color: lighten( $imb-gray, 35% );
-		padding-top: 2.5rem;
-		padding-bottom: 2.5rem;
-	}
-}
+ @import "PARTIALS/_imb-praise-page";
 
 /**
  *

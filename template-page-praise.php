@@ -9,7 +9,59 @@
  * @package Moose_Framework
  */
 
-get_header(); ?>
+get_header('startpg'); ?>
+
+<style type="text/css" media="screen">
+
+
+	@media ( min-width: 992px ) {
+
+		#praise-page-header {
+			background-image: url(/wp-content/uploads/2017/04/imb-hero-img-1900x600.jpg);
+			background-size: 100%;
+			background-repeat: no-repeat;
+		}		
+	}
+	@media ( max-width: 991px ) {
+
+		#praise-page-header {
+			background-image: url(/wp-content/uploads/2017/04/imb-hero-img-MOBILE-800x600.jpg);
+			background-size: 100%;
+			background-repeat: no-repeat;
+		}		
+	}
+
+</style>
+
+<section id="praise-page-header">
+
+	<div class="overlay">
+		
+		<div class="container">
+			
+			<div class="col-sm-12 col-md-12 col-lg-8">
+
+				<article class="featured-post">
+					
+					<h2 class="headline">Some extraordinary client results.</h2>
+
+						<h1 class="post-title">
+							Our greatest joy is watching our clients succeed, here’s what they’re saying about us.
+						</h1>
+
+					<!-- <a class="btn btn-primary btn-lg" href="#">Read More »</a> -->
+
+				</article>
+				
+			</div>
+
+		</div>
+
+		<!-- <img class="praise-header-image hidden-md hidden-lg img-responsive" src="/wp-content/uploads/2017/04/imb-hero-img-MOBILE-800x600.jpg" alt=""> -->
+
+	</div> <!-- END OVERLAY -->
+
+</section>
 <section class="container">
 <!-- <h1>I am real praise</h1> -->
 	<div id="primary" class="content-area col-md-12 col-lg-12">
@@ -52,7 +104,7 @@ get_header(); ?>
 
 			         	<div class="col-xs-12 col-sm-9 col-md-10 col-md-10">
 
-		         	<?php else : ; ?>
+		         	<?php else :  ?>
 		         	
 		         		<div class="col-md-12 col-md-12 no-image">
 
