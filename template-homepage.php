@@ -14,7 +14,72 @@
  * @package Moose_Framework
  */
 
-get_header(); ?>
+get_header('startpg'); ?>
+
+<style type="text/css" media="screen">
+
+	#frontpage-hero-image {
+		
+		background-image: url("/wp-content/uploads/2017/04/imb-hero-img-1900x600.jpg"); 
+		background-size: cover;
+		background-position: top center;
+
+	}
+
+	@media ( max-width: 800px ) {
+		#frontpage-hero-image {
+		
+			background-image: url(http://imb.local/wp-content/uploads/2017/04/imb-hero-img-MOBILE-800x600.jpg);
+			background-size: cover;
+			background-position: top center;
+		}
+	}	
+	
+</style>			
+
+
+<section id="frontpage-top-hero-unit">
+	
+	<header id="frontpage-hero-image">
+		
+		<!-- JUST THE BACKGROUND IMAGE HOLDER -->
+		<article class="hero-text-block-mobile visible-xs visible-sm">
+
+			<div class="text-only">
+				Do you Want To Know How You Can Balance Your
+				Life, Family and Finances (plus have FUN)
+				while growing an AWESOME Business?
+			</div>
+
+			<a class="btn  btn-lg" href="#" title="">
+				START HERE <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+			</a>
+
+		</article>
+
+	</header>
+
+
+	<div id="hero-call-to-action-box" class="container hidden-xs hidden-sm">
+
+		<article class="hero-text-block">
+
+			<span class="text-only">Do you Want To Know How You Can Balance Your</span> <br>
+			<span class="text-only">Life, Family and Finances (plus have FUN)</span> <br>
+			<span class="text-only">while growing an AWESOME Business?</span>
+
+			<a class="btn  btn-lg" href="#" title="">
+				START HERE <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+			</a>
+
+		</article>
+
+	</div>
+
+
+</section>
+
+
 <section id="imb-home-top-roadmap" class="container-fluid">
 
 	<div class="content-box container">

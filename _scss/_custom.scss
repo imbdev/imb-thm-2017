@@ -578,15 +578,11 @@ img {
 		font-weight: 400;
 	}
 	h3 {
-		font-family: 'Raleway', sans-serif;
 		font-size: 2rem;
 		font-weight: 400;
 	}	
 
 	img {
-		// padding-left: 2rem;
-		// padding-right: 2rem;
-		// padding-bottom: 2rem;
 		padding: 2rem;
 	}
 
@@ -600,7 +596,6 @@ img {
 		background-image: url(/wp-content/uploads/2017/02/block-quote-bg.png);
 		background-position: center center;
 		background-size: cover;
-		// border: 1px solid red;
 
 		p {
 			font-size: 3.5rem !important;
@@ -615,11 +610,8 @@ img {
 
 
 	.entry-header {
-			// border: 1px solid red;
 
 		h1 {
-			// font-family: 'Slabo 27px', serif;
-			font-family: 'Cormorant Garamond', serif;
 			font-variant: small-caps;
 			font-size: 4rem;
 			color: darken( $brand-primary, 10% );
@@ -635,7 +627,6 @@ img {
 		padding-right: 3rem;
 		font-size: 2rem;
 		font-weight: 300;
-		// border: 1px solid red;
 
 		.featured-img {
 			width: 100%;
@@ -643,23 +634,15 @@ img {
 			padding-right: 0;
 			padding-left: 0;
 			padding-bottom: 3rem;
-			// border: 1px solid red;
-
-
 		}		
 
 	}
 	.only-text {
-		// padding-left: 1.5rem;
-		// padding-right: 1.5rem;
 		padding-top: 2rem;
 		p {
-			// font-family: 'Slabo 27px', serif;
-			font-family: 'Cormorant Garamond', serif;
 			font-size: 2rem;
 			font-weight: 300;
 			color: lighten( $imb-gray, 30% );
-			// border: 1px solid red;	
 		}
 	}
 
@@ -689,7 +672,7 @@ img {
  */
 
  .imb-contact-page-left-text-only {
- 	// border: 1rem solid red;
+
  	@media ( min-width: 1400px ) {
  		padding-top: 8rem;
  	}
@@ -1128,7 +1111,6 @@ ol.children { list-style-type: none; }
     background: hsl(100, 39%, 57%);
 }
                 
-
 
 
 

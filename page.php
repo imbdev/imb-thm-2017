@@ -34,20 +34,6 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-	<div id="widget-box" class="col-sm-12 col-md-12 col-lg-12">
-
-
-						<?php 
-							if ( ! is_active_sidebar( 'page-bottom' ) ) {
-								return;
-							}
-
-							dynamic_sidebar( 'page-bottom' ); 
-
-						?>	
-		
-	</div>
-
 </section> <!-- End Container -->	
 	
 <?php

@@ -111,7 +111,6 @@
 					#frontpage-hero-image {
 					
 						background-image: url(http://imb.local/wp-content/uploads/2017/04/imb-hero-img-MOBILE-800x600.jpg);
-						/*background-image: url("<?php echo $front_header_image;  ?>"); */ 
 						background-size: cover;
 						background-position: top center;
 					}
