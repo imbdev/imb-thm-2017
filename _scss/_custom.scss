@@ -40,14 +40,18 @@ body {
 
 	h1,h2,h3,h4,h5 {
 		color: $imb-secondary;
-		padding-top: 1rem;
-		padding-bottom: 1rem;
+		// padding-top: 1rem;
+		// padding-bottom: 1rem;
 
 		@media ( min-height: 800px ) {
 			// padding-top: 1rem;
 			// padding-bottom: 1rem;
 		}
 
+	}
+
+	iframe {
+		width: 100%;
 	}
 
 	@media ( max-width: 1130px ) {
@@ -282,6 +286,20 @@ img {
 /*==========================================
 =            General Page Stuff            =
 ==========================================*/
+
+/**
+ *
+ * GENERAL PAGE HEADER
+ *
+ */
+#general-page-header {
+
+	#frontpage-hero-image {
+		height: 400px;	
+	} 
+	
+} 
+
 /**
  *
  * Convertkit Naked Form
@@ -334,7 +352,7 @@ img {
 
 /**
  *
- * HOMR PAGE HERO UNIT (HEADER.PHP)
+ * HOMR PAGE HERO UNIT 
  *
  */
 @import "PARTIALS/imb-home-top-hero-unit";
@@ -598,7 +616,8 @@ img {
 		background-size: cover;
 
 		p {
-			font-size: 3.5rem !important;
+			font-size: 3rem !important;
+			line-height: 3rem;
 			font-style: italic !important;
 		}
 	}	
@@ -647,8 +666,11 @@ img {
 	}
 
 	#single-related-post-block {
+		text-align: center;
 		
 		img {
+			margin: 0 auto;
+			
 			&:hover {
 				opacity: .5;
 			}

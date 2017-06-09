@@ -11,9 +11,16 @@
 		.bg-smudge-image {
 			position: absolute;
 
-			right: 40%;
-			bottom: 2%;
-			// top: 0%;
+			// right: 40%;
+			// bottom: 2%;
+			top: 0%;
+
+			@media ( min-width: 1250px ) {
+				top: -20%;
+			}
+			@media ( min-width: 1600px ) {
+				top: -50%;
+			}
 		}
 
 		.testimonial-block {

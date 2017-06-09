@@ -31,7 +31,7 @@
 	<?php if ( has_post_thumbnail() ) : ?> 
 		
 		<div class="featured-img">
-			<?php //the_post_thumbnail( 'full', array('class' => 'img-responsive'));  ?>
+			<?php the_post_thumbnail( 'full', array('class' => 'img-responsive'));  ?>
 		</div>
 
 	<?php endif; ?>

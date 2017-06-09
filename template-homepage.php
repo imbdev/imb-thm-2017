@@ -20,7 +20,7 @@ get_header('startpg'); ?>
 
 	#frontpage-hero-image {
 		
-		background-image: url("/wp-content/uploads/2017/04/imb-hero-img-1900x600.jpg"); 
+		background-image: url("/wp-content/uploads/2017/06/imb-hero-img-1900x600-blur.jpg"); 
 		background-size: cover;
 		background-position: top center;
 
@@ -82,78 +82,83 @@ get_header('startpg'); ?>
 
 <section id="imb-home-top-roadmap" class="container-fluid">
 
-	<div class="content-box container">
+	<div class="content-box">
+	
+		<img class="bg-smudge-image img-responsive visible-lg visible-md" src="/wp-content/uploads/2017/06/imb-cloud-1800x800-top-raw-5.09.56-PM.png" alt="">
+
 		
-		<h1 class="headline">A FEW WAYS I CAN HELP YOU</h1>
+		<div class="container">
+			<h1 class="headline">A FEW WAYS I CAN HELP YOU</h1>
 
-		<div class="image-group row">
+			<div class="image-group row">
 
-			<figure class="image-box col-sm-4 col-md-4 col-lg-4">
-				
-				<div class="image-holder">
-					<a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/left-420x300.jpg" alt=""></a>
-				</div>
-			
-				<article class="roadmap-image-text">
+				<figure class="image-box col-sm-4 col-md-4 col-lg-4">
 					
-					<h4 class="text-only">
-						Free Checklist: Grow Your Business Anywhere with a Laptop and Smart Phone	
-					</h4>
+					<div class="image-holder">
+						<a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/left-420x300.jpg" alt=""></a>
+					</div>
+				
+					<article class="roadmap-image-text">
+						
+						<h4 class="text-only">
+							Free Checklist: Grow Your Business Anywhere with a Laptop and Smart Phone	
+						</h4>
+						
+					</article>
+
+					<div class="roadmap-button">
+
+						<a href="#" class="btn btn-primary btn-lg">CLICK HERE</a>
 					
-				</article>
+					</div>
 
-				<div class="roadmap-button">
+				</figure>
 
-					<a href="#" class="btn btn-primary btn-lg">CLICK HERE</a>
-				
-				</div>
-
-			</figure>
-
-			<figure class="image-box col-sm-4 col-md-4 col-lg-4">
-				
-				<div class="image-holder">
-					<a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/middle-420x300.jpg" alt=""></a>
-				</div>
-			
-				<article class="roadmap-image-text">
+				<figure class="image-box col-sm-4 col-md-4 col-lg-4">
 					
-					<h4 class="text-only">
-						How To Create a Side Hustle using Facebook
-					</h4>
+					<div class="image-holder">
+						<a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/middle-420x300.jpg" alt=""></a>
+					</div>
+				
+					<article class="roadmap-image-text">
+						
+						<h4 class="text-only">
+							How To Create a Side Hustle using Facebook
+						</h4>
+						
+					</article>
+
+					<div class="roadmap-button">
+
+						<a href="#" class="btn btn-primary btn-lg">CLICK HERE</a>
 					
-				</article>
-
-				<div class="roadmap-button">
-
-					<a href="#" class="btn btn-primary btn-lg">CLICK HERE</a>
-				
-				</div>
-				
-			</figure>
-
-			<figure class="image-box col-sm-4 col-md-4 col-lg-4">
-				
-				<div class="image-holder">
-					<a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/right-420x300.jpg" alt=""></a>
-				</div>
-			
-				<article class="roadmap-image-text">
+					</div>
 					
-					<h4 class="text-only">
-						How To Attract Other Leaders using Social Media onto Your Network Marketing Team
-					</h4>
+				</figure>
+
+				<figure class="image-box col-sm-4 col-md-4 col-lg-4">
 					
-				</article>
-
-				<div class="roadmap-button">
-
-					<a href="#" class="btn btn-primary btn-lg">CLICK HERE</a>
+					<div class="image-holder">
+						<a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/right-420x300.jpg" alt=""></a>
+					</div>
 				
-				</div>
+					<article class="roadmap-image-text">
+						
+						<h4 class="text-only">
+							How To Attract Other Leaders using Social Media onto Your Network Marketing Team
+						</h4>
+						
+					</article>
+
+					<div class="roadmap-button">
+
+						<a href="#" class="btn btn-primary btn-lg">CLICK HERE</a>
+					
+					</div>
+					
+				</figure>
 				
-			</figure>
-			
+			</div>			
 		</div>
 
 	</div>
@@ -245,7 +250,7 @@ get_header('startpg'); ?>
 	
 	<div class="content-box">
 		
-		<img class="bg-smudge-image" src="/wp-content/uploads/2017/05/the-moose-smudge-200KB-700x700.png" alt="">
+		<img class="bg-smudge-image img-responsive visible-lg visible-md" src="/wp-content/uploads/2017/06/imb-cloud-1800x800-final.png" alt="">
 		
 		<div class="testimonial-block container">
 			
@@ -265,12 +270,7 @@ get_header('startpg'); ?>
 						<h3>Exceeds expectations every time!</h3>
 
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							Tiana has been my business coach for the past 8 months. She is one of those leaders with the "inside edge" ... she stays current on the latest strategies for growing my list of clientele, increasing sales and delivering high quality customer service. If you're looking for a social media expert who can increase your bottom line - you're in luck! Your search has ended. Thank you Tiana!
 						</p>
 
 						<i class="fa fa-quote-right pull-right" aria-hidden="true"></i>

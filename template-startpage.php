@@ -214,87 +214,92 @@ get_header('startpg'); ?>
 
 <section id="imb-startpg-roadmap" class="container-fluid">
 
-	<div class="content-box container">
-		
-		<h1 class="headline">
-			<!-- A FEW WAYS I CAN HELP YOU -->
-			<?php the_field('middle_optin_roadmap_headline'); ?>
-		</h1>
+	<div class="content-box">
 
-		<div class="image-group row">
+		<img class="bg-smudge-image img-responsive visible-lg visible-md" src="/wp-content/uploads/2017/06/imb-cloud-1800x800-top-raw-5.09.56-PM.png" alt="">
 
-			<figure class="image-box col-sm-4 col-md-4 col-lg-4">
-				
-				<div class="image-holder">
-					<a href="<?php the_field('middle_optin_roadmap_left_image_url'); ?>" title=""><img class="roadmap-image img-responsive" src="<?php the_field('middle_optin_roadmap_left_image'); ?>" alt=""></a>
-				</div>
-			
-				<article class="roadmap-image-text">
+		<div class="container">
+			<h1 class="headline">
+				<!-- A FEW WAYS I CAN HELP YOU -->
+				<?php the_field('middle_optin_roadmap_headline'); ?>
+			</h1>
+
+			<div class="image-group row">
+
+				<figure class="image-box col-sm-4 col-md-4 col-lg-4">
 					
-					<h4 class="text-only">
-						<!-- Free Checklist: Grow Your Business Anywhere with a Laptop and Smart Phone -->
-						<?php the_field('middle_optin_roadmap_left_text'); ?>	
-					</h4>
+					<div class="image-holder">
+						<a href="<?php the_field('middle_optin_roadmap_left_image_url'); ?>" title=""><img class="roadmap-image img-responsive" src="<?php the_field('middle_optin_roadmap_left_image'); ?>" alt=""></a>
+					</div>
+				
+					<article class="roadmap-image-text">
+						
+						<h4 class="text-only">
+							<!-- Free Checklist: Grow Your Business Anywhere with a Laptop and Smart Phone -->
+							<?php the_field('middle_optin_roadmap_left_text'); ?>	
+						</h4>
+						
+					</article>
+
+					<div class="roadmap-button">
+
+						<a href="<?php the_field('middle_optin_roadmap_left_button_url'); ?>" class="btn btn-primary btn-lg"><?php the_field('middle_optin_roadmap_left_button_text'); ?></a>
 					
-				</article>
+					</div>
 
-				<div class="roadmap-button">
+				</figure>
 
-					<a href="<?php the_field('middle_optin_roadmap_left_button_url'); ?>" class="btn btn-primary btn-lg"><?php the_field('middle_optin_roadmap_left_button_text'); ?></a>
-				
-				</div>
-
-			</figure>
-
-			<figure class="image-box col-sm-4 col-md-4 col-lg-4">
-				
-				<div class="image-holder">
-					<a href="<?php the_field('middle_optin_roadmap_middle_image_url'); ?>" title=""><img class="roadmap-image img-responsive" src="<?php the_field('middle_optin_roadmap_middle_image'); ?>" alt=""></a>
-					<!-- <a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/middle-420x300.jpg" alt=""></a> -->
-				</div>
-			
-				<article class="roadmap-image-text">
+				<figure class="image-box col-sm-4 col-md-4 col-lg-4">
 					
-					<h4 class="text-only">
-						<?php the_field('middle_optin_roadmap_middle_text'); ?>	
-						<!-- How To Create a Side Hustle using Facebook -->
-					</h4>
+					<div class="image-holder">
+						<a href="<?php the_field('middle_optin_roadmap_middle_image_url'); ?>" title=""><img class="roadmap-image img-responsive" src="<?php the_field('middle_optin_roadmap_middle_image'); ?>" alt=""></a>
+						<!-- <a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/middle-420x300.jpg" alt=""></a> -->
+					</div>
+				
+					<article class="roadmap-image-text">
+						
+						<h4 class="text-only">
+							<?php the_field('middle_optin_roadmap_middle_text'); ?>	
+							<!-- How To Create a Side Hustle using Facebook -->
+						</h4>
+						
+					</article>
+
+					<div class="roadmap-button">
+
+						<a href="<?php the_field('middle_optin_roadmap_middle_button_url'); ?>" class="btn btn-primary btn-lg"><?php the_field('middle_optin_roadmap_middle_button_text'); ?></a>
 					
-				</article>
-
-				<div class="roadmap-button">
-
-					<a href="<?php the_field('middle_optin_roadmap_middle_button_url'); ?>" class="btn btn-primary btn-lg"><?php the_field('middle_optin_roadmap_middle_button_text'); ?></a>
-				
-				</div>
-				
-			</figure>
-
-			<figure class="image-box col-sm-4 col-md-4 col-lg-4">
-				
-				<div class="image-holder">
-					<a href="<?php the_field('middle_optin_roadmap_right_image_url'); ?>" title=""><img class="roadmap-image img-responsive" src="<?php the_field('middle_optin_roadmap_right_image'); ?>" alt=""></a>
-					<!-- <a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/right-420x300.jpg" alt=""></a> -->
-				</div>
-			
-				<article class="roadmap-image-text">
+					</div>
 					
-					<h4 class="text-only">
-						<?php the_field('middle_optin_roadmap_right_text'); ?>	
-						<!-- How To Attract Other Leaders using Social Media onto Your Network Marketing Team -->
-					</h4>
+				</figure>
+
+				<figure class="image-box col-sm-4 col-md-4 col-lg-4">
 					
-				</article>
-
-				<div class="roadmap-button">
-
-					<a href="<?php the_field('middle_optin_roadmap_right_button_url'); ?>" class="btn btn-primary btn-lg"><?php the_field('middle_optin_roadmap_right_button_text'); ?></a>
+					<div class="image-holder">
+						<a href="<?php the_field('middle_optin_roadmap_right_image_url'); ?>" title=""><img class="roadmap-image img-responsive" src="<?php the_field('middle_optin_roadmap_right_image'); ?>" alt=""></a>
+						<!-- <a href="#" title=""><img class="roadmap-image img-responsive" src="/wp-content/uploads/2017/05/right-420x300.jpg" alt=""></a> -->
+					</div>
 				
-				</div>
+					<article class="roadmap-image-text">
+						
+						<h4 class="text-only">
+							<?php the_field('middle_optin_roadmap_right_text'); ?>	
+							<!-- How To Attract Other Leaders using Social Media onto Your Network Marketing Team -->
+						</h4>
+						
+					</article>
+
+					<div class="roadmap-button">
+
+						<a href="<?php the_field('middle_optin_roadmap_right_button_url'); ?>" class="btn btn-primary btn-lg"><?php the_field('middle_optin_roadmap_right_button_text'); ?></a>
+					
+					</div>
+					
+				</figure>
 				
-			</figure>
-			
-		</div>
+			</div>			
+		</div>		
+
 
 	</div>
 

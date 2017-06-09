@@ -20,7 +20,7 @@ get_header('startpg'); ?>
 	@media ( min-width: 992px ) {
 
 		#praise-page-header {
-			background-image: url(/wp-content/uploads/2017/04/imb-hero-img-1900x600.jpg);
+			background-image: url(/wp-content/uploads/2017/06/imb-hero-img-1900x600-blur.jpg);
 			background-size: 100%;
 			background-repeat: no-repeat;
 		}		
@@ -165,27 +165,21 @@ get_header('startpg'); ?>
 				<figure>
 					<img class="img-responsive img-circle center-block" src="/wp-content/uploads/2016/01/Sharee-Moore-150x150.jpg" alt="">
 				</figure>
-				<h4 class="subheading">Business Coaching</h4>
-				<h2 class="heading">"Got my 500k sale"</h2>
+				<h4 class="subheading">Author and Founder of the Natural Hair Community</h4>
+				<h2 class="heading">Sharee Moore </h2>
 				<p class="praise-text">
-					consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. 
+					Tiana has been my business coach for the past 8 months. She is one of those leaders with the "inside edge" ... she stays current on the latest strategies for growing my list of clientele, increasing sales and delivering high quality customer service. If you're looking for a social media expert who can increase your bottom line - you're in luck! Your search has ended. Thank you Tiana!
 				</p>
 			</article>
 
 			<article class="text-box flex-item text-center">
 				<figure>
-					<img class="img-responsive img-circle center-block" src="/wp-content/uploads/2017/02/download-e1496409617895.jpeg" alt="">
+					<img class="img-responsive img-circle center-block" src="/wp-content/uploads/2017/06/kelly-soto-150x150.jpg" alt="">
 				</figure>
-				<h4 class="subheading">Business Coaching</h4>
-				<h2 class="heading">"$210,000 in 30 days"</h2>
+				<h4 class="subheading">Consultant and Network Marketer</h4>
+				<h2 class="heading">Kelly Soto</h2>
 				<p class="praise-text">
-					consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. 
+					Tiana is the real deal. We are in the early stages of my project but I'm so confident that I made the choice to work with her! In our very first session, she has already impressed me beyond belief. Tiana is honest and caring and she can see your vision before you can even see it! My super rough draft already feels like me! 
 				</p>
 			</article>
 
@@ -193,13 +187,10 @@ get_header('startpg'); ?>
 				<figure>
 					<img class="img-responsive img-circle center-block" src="/wp-content/uploads/2016/01/Jenny-Giblin-150x150.jpg" alt="">
 				</figure>
-				<h4 class="subheading">Business Coaching</h4>
-				<h2 class="heading">"Got my 500k sale"</h2>
+				<h4 class="subheading">Yogi and Entrepreneur</h4>
+				<h2 class="heading">Jenny Giblin</h2>
 				<p class="praise-text">
-					consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. 
+					I am so lucky to have connected with Tiana! Her advice was exactly what I Needed both personally and professionally. Talking to her is like talking to an old friend who also happens to be an expert at what she does! I highly, highly recommend her!
 				</p>
 			</article>
 
@@ -207,13 +198,10 @@ get_header('startpg'); ?>
 				<figure>
 					<img class="img-responsive img-circle center-block" src="/wp-content/uploads/2016/01/Barry-Johnson-150x150.jpg" alt="">
 				</figure>
-				<h4 class="subheading">Business Coaching</h4>
-				<h2 class="heading">"Got my 500k sale"</h2>
+				<h4 class="subheading">Author and Consultant</h4>
+				<h2 class="heading"> Barry John Johnson</h2>
 				<p class="praise-text">
-					consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. 
+					Tiana has provided me with website development services. She offers more than simply tech skills. She is creative & process oriented so that your project evolves and is further defined making for a better product than planned. In the end, she wants to make sure that you are completely happy without feeling like you have been nickel and dimed for each small change or interaction. HIGHLY RECOMMENDED.
 				</p>
 			</article>
 
@@ -221,34 +209,29 @@ get_header('startpg'); ?>
 				<figure>
 					<img class="img-responsive img-circle center-block" src="/wp-content/uploads/2016/01/Charlene-Reed-150x150.jpg" alt="">
 				</figure>
-				<h4 class="subheading">Business Coaching</h4>
-				<h2 class="heading">"Got my 500k sale"</h2>
+				<h4 class="subheading">Interior Design Professor at Orange Coast College, Huntington Beach, CA</h4>
+				<h2 class="heading">Charlene Reed</h2>
 				<p class="praise-text">
-					consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. 
+					I’ve worked with Firefly Media Services remotely on a website set-up and various consultations for social media marketing. Tiana is professional and knowledgeable about WordPress, graphics and social media marketing.
+					I’m thankful to have found someone who can accommodate a variety of services in whatever capacity I’m in need of, from full-service website and graphic design to hourly consultative phone calls about marketing strategies. Easy to work with remotely, I highly recommend this company.
 				</p>
 			</article>
 
 			<article class="text-box flex-item text-center">
 				<figure>
-					<img class="img-responsive img-circle center-block" src="/wp-content/uploads/2016/01/Sharee-Moore-150x150.jpg" alt="">
+					<img class="img-responsive img-circle center-block" src="/wp-content/uploads/2017/06/Donna-Heinbach-150x150.jpg" alt="">
 				</figure>
 				<h4 class="subheading">Business Coaching</h4>
-				<h2 class="heading">"Got my 500k sale"</h2>
+				<h2 class="heading">Consultant and Nurse</h2>
 				<p class="praise-text">
-					consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. 
+					Tiana has been so helpful in the development of my website and so so wonderful with explaining this process that I understand. She has the passion of helping others and is A+ in this. She truly loves what she does and shares with you all the steps needed to be successful. I am glad I invested in myself with her guidance.
 				</p>
 			</article>
 
 		</div>
 
 
-		<div class="load-more-btn-box row text-center">
+		<div class="load-more-btn-box row text-center hide">
 			<a class="btn btn-success btn-lg" href="#">LOAD MORE</a>
 		</div>
 
@@ -308,21 +291,18 @@ get_header('startpg'); ?>
 				    <div class="video">
 
 				        <div class="embed-responsive embed-responsive-16by9">
-
-				            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ChbghzEJQL8"></iframe>
+							
+							<script src="https://fast.wistia.com/embed/medias/qbk5zsvwii.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:50.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_qbk5zsvwii videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 
 				        </div>
 
 				    </div>
 
 				</figure>				
-				<h4 class="subheading">Publicity & Visibility</h4>
-				<h2 class="heading">"My Income Goal Trippled"</h2>
+				<h4 class="subheading">Singer & Song Writer</h4>
+				<h2 class="heading">Cathy Heller</h2>
 				<p class="praise-text">
-					consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. 
+					Cathy is the owner of Catch The Moon Music, a leading Ad Agency and TV/Film Music Placement company in Los Angeles, California. Since implementing Bullseye Funnels, Cathy closed $85,000 in sales in 2 weeks with the Bullseye funnel system as well as added over 1200 new leads in 30 days !
 				</p>
 			</article>
 			
@@ -333,24 +313,21 @@ get_header('startpg'); ?>
 
 				        <div class="embed-responsive embed-responsive-16by9">
 
-				            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ChbghzEJQL8"></iframe>
-
+							<script src="https://fast.wistia.com/embed/medias/encvlvsx52.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_encvlvsx52 videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+				        
 				        </div>
 
 				    </div>
 
 				</figure>				
-				<h4 class="subheading">Publicity & Visibility</h4>
-				<h2 class="heading">"My Income Goal Trippled"</h2>
+				<h4 class="subheading">Musician & Entrepreneur</h4>
+				<h2 class="heading">Glenn Allen</h2>
 				<p class="praise-text">
-					consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. 
+					Glenn is the owner of I Am An Orchestra, a leading Music Theory and Songwriting company. Since implementing Bullseye Funnels, Glenn finally pieced together his entire online marketing funnel for new leads and sales.
 				</p>
 			</article>
 
-			<article class="text-box flex-item text-center">
+			<!-- <article class="text-box flex-item text-center">
 				<figure class="video-box">
 
 				    <div class="video">
@@ -372,60 +349,11 @@ get_header('startpg'); ?>
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. 
 				</p>
-			</article>
-
-			<article class="text-box flex-item text-center">
-				<figure class="video-box">
-
-				    <div class="video">
-
-				        <div class="embed-responsive embed-responsive-16by9">
-
-				            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ChbghzEJQL8"></iframe>
-
-				        </div>
-
-				    </div>
-
-				</figure>				
-				<h4 class="subheading">Publicity & Visibility</h4>
-				<h2 class="heading">"My Income Goal Trippled"</h2>
-				<p class="praise-text">
-					consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. 
-				</p>
-			</article>
-
-			<article class="text-box flex-item text-center">
-				<figure class="video-box">
-
-				    <div class="video">
-
-				        <div class="embed-responsive embed-responsive-16by9">
-
-				            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ChbghzEJQL8"></iframe>
-
-				        </div>
-
-				    </div>
-
-				</figure>				
-				<h4 class="subheading">Publicity & Visibility</h4>
-				<h2 class="heading">"My Income Goal Trippled"</h2>
-				<p class="praise-text">
-					consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. 
-				</p>
-			</article>
-			
+			</article> -->
 
 		</div>
 
-		<div class="load-more-btn-box row text-center">
+		<div class="load-more-btn-box row text-center hide">
 			<a class="btn btn-success btn-lg" href="#">LOAD MORE</a>
 		</div>
 

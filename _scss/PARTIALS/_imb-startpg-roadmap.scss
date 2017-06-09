@@ -1,7 +1,20 @@
 #imb-startpg-roadmap {
+	position: relative;
 
 	.content-box {
 		margin-bottom: 5rem;
+
+		.bg-smudge-image {
+			position: absolute;
+			top: 0%;
+
+			@media ( min-width: 1250px ) {
+				// top: -20%;
+			}
+			@media ( min-width: 1600px ) {
+				// top: -50%;
+			}
+		}				
 
 		.headline {
 			padding-top: 6rem;
