@@ -83,7 +83,7 @@ get_header('startpg'); ?>
 <section id="imb-home-top-roadmap" class="container-fluid">
 
 	<div class="content-box">
-	
+
 		<img class="bg-smudge-image img-responsive visible-lg visible-md" src="/wp-content/uploads/2017/06/imb-cloud-1800x800-top-raw-5.09.56-PM.png" alt="">
 
 		
@@ -190,9 +190,6 @@ get_header('startpg'); ?>
 			<article class="content">
 
 				<img src="/wp-content/uploads/2017/05/hero-right-img-400x610.jpg" alt="" class="pull-right">
-				<!-- <img src="http://lorempixel.com/400/600/abstract/1" alt="" class="pull-right"> -->
-				<!-- <img src="/wp-content/uploads/2017/05/hero-story-test-img-400x600.jpeg" alt="" class="pull-right"> -->
-
 
 				<h3><i>HELLO GORGEOUS!</i> I'M TIANA GUSTAFSON.</h3>
 				
@@ -231,17 +228,7 @@ get_header('startpg'); ?>
 
 
 			</article>
-
-
-		<!-- <div class="left-image-box col-sm-3 col-md-6 col-lg-6">
-			
-			<figure>
-				
-				
-			</figure>
-
-		</div> -->
-
+		
 	</div>
 
 </section> <!-- End imb-home-hero-story -->

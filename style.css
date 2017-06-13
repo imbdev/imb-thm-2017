@@ -6893,13 +6893,19 @@ img {
   text-align: center;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background-image: url(/wp-content/uploads/2017/02/block-quote-bg.png);
+  background-image: url(/wp-content/uploads/2017/06/block-quote-bg.png);
   background-position: center center;
   background-size: cover; }
   .single-page blockquote p {
     font-size: 3rem !important;
     line-height: 3rem;
     font-style: italic !important; }
+  .single-page blockquote cite {
+    display: block;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 4rem; }
 .single-page .entry-meta {
   display: none; }
 .single-page .entry-header h1 {
